@@ -2,6 +2,7 @@ import json
 import urllib.request
 import urllib.parse
 import time
+import ssl
 
 OUTPUT_FILE = "places.json"
 SPARQL_URL = "https://query.wikidata.org/sparql"
@@ -16,10 +17,21 @@ def safe(val):
     return str(val).strip()
 
 
+# SSL FIX
+ssl_context = ssl.create_default_context()
+ssl_context.check_hostname = False
+ssl_context.verify_mode = ssl.CERT_NONE
+
+
 def fetch_json(req, retries=5):
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=120) as response:
+            with urllib.request.urlopen(
+                req,
+                timeout=120,
+                context=ssl_context
+            ) as response:
+
                 raw = response.read().decode("utf-8", errors="replace")
 
                 try:
@@ -59,10 +71,6 @@ def run_sparql(query):
 
 
 def main():
-
-    # JAVÍTVA:
-    # csak 1 koordináta / UNESCO item
-    # nincs city -> nincs duplikáció
 
     query = f"""
     SELECT ?place ?placeLabel ?lat ?lon ?website ?description WHERE {{
@@ -104,14 +112,12 @@ def main():
         lat = r.get("lat", {}).get("value")
         lon = r.get("lon", {}).get("value")
 
-        # csak koordinátás elemek
         if not lat or not lon:
             continue
 
         place_url = r.get("place", {}).get("value", "")
         place_id = place_url.split("/")[-1] if place_url else ""
 
-        # DUPLIKÁCIÓ SZŰRÉS
         if place_id in seen_ids:
             continue
 
@@ -121,7 +127,7 @@ def main():
             "id": place_id,
             "name": safe(r.get("placeLabel", {}).get("value")),
             "type": "UNESCO World Heritage",
-            "city": "",  # nincs több random city duplikáció
+            "city": "",
             "lat": float(lat),
             "lon": float(lon),
             "website": safe(r.get("website", {}).get("value")),
@@ -132,7 +138,6 @@ def main():
         if place["name"]:
             places.append(place)
 
-    # név szerinti rendezés
     places.sort(key=lambda x: x["name"].lower())
 
     final = {
