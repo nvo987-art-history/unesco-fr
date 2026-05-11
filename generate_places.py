@@ -61,12 +61,21 @@ def run_sparql(query):
 def main():
 
     query = f"""
-    SELECT ?place ?placeLabel ?lat ?lon ?cityLabel ?website ?description WHERE {{
+    SELECT DISTINCT
+      ?place
+      ?placeLabel
+      ?lat
+      ?lon
+      ?cityLabel
+      ?website
+      ?description
+    WHERE {{
 
       ?place wdt:P1435 {UNESCO_TYPE} .
       ?place wdt:P17 wd:Q142 .   # France
 
       OPTIONAL {{ ?place wdt:P625 ?coord . }}
+
       BIND(geof:latitude(?coord) AS ?lat)
       BIND(geof:longitude(?coord) AS ?lon)
 
@@ -94,6 +103,7 @@ def main():
     print("Raw results:", len(results))
 
     places = []
+    unique_places = {}
 
     for r in results:
         lat = r.get("lat", {}).get("value")
@@ -105,6 +115,10 @@ def main():
 
         place_url = r.get("place", {}).get("value", "")
         place_id = place_url.split("/")[-1] if place_url else ""
+
+        # DUPLIKÁCIÓ SZŰRÉS ID alapján
+        if not place_id or place_id in unique_places:
+            continue
 
         place = {
             "id": place_id,
@@ -119,7 +133,12 @@ def main():
         }
 
         if place["name"]:
-            places.append(place)
+            unique_places[place_id] = place
+
+    places = list(unique_places.values())
+
+    # rendezés név szerint
+    places.sort(key=lambda x: x["name"].lower())
 
     final = {
         "source": "Wikidata (CC0)",
@@ -132,8 +151,8 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
 
-    print(f"Generated {OUTPUT_FILE} with {len(places)} places.")
+    print(f"Generated {OUTPUT_FILE} with {len(places)} unique UNESCO places.")
 
 
 if __name__ == "__main__":
-    main() 
+    main()
