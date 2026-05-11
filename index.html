@@ -387,6 +387,143 @@
 
     </div>
   </footer>
+<script>
 
+let allPlaces = [];
+
+const placesGrid = document.getElementById("placesGrid");
+const statusBox = document.getElementById("statusBox");
+const searchInput = document.getElementById("searchInput");
+const limitSelect = document.getElementById("limitSelect");
+
+function escapeHtml(text) {
+  return String(text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderPlaces() {
+
+  const query = searchInput.value.toLowerCase().trim();
+
+  const limit = parseInt(limitSelect.value, 10);
+
+  let filtered = allPlaces.filter(place => {
+
+    const name = (place.name || "").toLowerCase();
+    const city = (place.city || "").toLowerCase();
+    const desc = (place.description || "").toLowerCase();
+
+    return (
+      name.includes(query) ||
+      city.includes(query) ||
+      desc.includes(query)
+    );
+
+  });
+
+  filtered = filtered.slice(0, limit);
+
+  if (filtered.length === 0) {
+
+    placesGrid.innerHTML = "";
+
+    statusBox.textContent = "Aucun résultat.";
+    return;
+  }
+
+  statusBox.textContent =
+    filtered.length + " résultat(s) affiché(s)";
+
+  placesGrid.innerHTML = filtered.map(place => {
+
+    return `
+      <article class="card">
+
+        <h3>${escapeHtml(place.name)}</h3>
+
+        <p class="meta">
+          ${escapeHtml(place.city || "France")}
+        </p>
+
+        <p>
+          ${escapeHtml(place.description || "")}
+        </p>
+
+        <div class="card-links">
+
+          <a
+            href="${escapeHtml(place.source)}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Wikidata
+          </a>
+
+          ${
+            place.website
+            ? `
+              <a
+                href="${escapeHtml(place.website)}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Site officiel
+              </a>
+            `
+            : ""
+          }
+
+        </div>
+
+      </article>
+    `;
+
+  }).join("");
+
+}
+
+async function loadPlaces() {
+
+  try {
+
+    statusBox.textContent = "Chargement des données...";
+
+    const response = await fetch("./places.json");
+
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status);
+    }
+
+    const data = await response.json();
+
+    if (!data.places || !Array.isArray(data.places)) {
+      throw new Error("Invalid JSON structure");
+    }
+
+    allPlaces = data.places;
+
+    renderPlaces();
+
+  } catch (err) {
+
+    console.error(err);
+
+    statusBox.textContent =
+      "Erreur lors du chargement des données.";
+
+  }
+
+}
+
+searchInput.addEventListener("input", renderPlaces);
+
+limitSelect.addEventListener("change", renderPlaces);
+
+loadPlaces();
+
+     </script>
 </body>
   </html> 
