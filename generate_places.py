@@ -145,9 +145,13 @@ def main():
 
         website = safe(r.get("website", {}).get("value"))
 
-        # SSL / HTTPS hibás oldalak kiszűrése
-        if not is_valid_website(website):
-            website = ""
+        website_valid = False
+
+        if website:
+            website_valid = is_valid_website(website)
+
+        if not website_valid and website:
+            print("Invalid website:", website)
 
         place = {
             "id": place_id,
@@ -157,6 +161,7 @@ def main():
             "lat": float(lat),
             "lon": float(lon),
             "website": website,
+            "website_valid": website_valid,
             "description": safe(r.get("description", {}).get("value")),
             "source": place_url
         }
