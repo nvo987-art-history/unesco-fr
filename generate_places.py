@@ -63,7 +63,7 @@ def main():
     query = f"""
     SELECT ?place ?placeLabel ?lat ?lon ?cityLabel ?website ?description WHERE {{
 
-      ?place wdt:P31/wdt:P279* {UNESCO_TYPE} .
+      ?place wdt:P1435 {UNESCO_TYPE} .
       ?place wdt:P17 wd:Q142 .   # France
 
       OPTIONAL {{ ?place wdt:P625 ?coord . }}
@@ -73,6 +73,7 @@ def main():
       OPTIONAL {{ ?place wdt:P131 ?city . }}
 
       OPTIONAL {{ ?place wdt:P856 ?website . }}
+
       OPTIONAL {{
         ?place schema:description ?description .
         FILTER(LANG(?description)="fr")
@@ -135,4 +136,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main() 
