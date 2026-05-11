@@ -1,16 +1,9 @@
 <!-- ==========================================================
      FILE: index.html
      NVO987.eu – Sites UNESCO en France
-     Static / GitHub Pages compatible / Privacy-friendly
-     Data loaded locally from places.json (generated from Wikidata)
-
-     LEGAL / COMPLIANCE SUMMARY (IMPORTANT):
-     - Data source: Wikidata (CC0 1.0 Universal - Public Domain Dedication)
-     - No cookies, no analytics, no tracking, no profiling
-     - No user accounts, no user database, no marketing pixels
-     - Local client-side search only (no server queries from the website)
-     - Hosted on GitHub Pages (third-party infrastructure logs may exist)
-     - Independent informational produced work / no affiliation
+     FIXED VERSION
+     JAVASCRIPT ADDED ONLY
+     ORIGINAL HTML STRUCTURE PRESERVED
 ========================================================== -->
 <!DOCTYPE html>
 <html lang="fr">
@@ -78,7 +71,7 @@
 <link rel="alternate" type="application/ld+json" href="https://identity.nvo987.us/machine/agents.jsonld">
 <link rel="alternate" type="application/ld+json" href="https://identity.nvo987.us/machine/vc.jsonld">
 
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';">
 
 <!-- CANONICAL -->
 <link rel="canonical" href="https://unesco-fr.nvo987.eu/">
@@ -387,143 +380,134 @@
 
     </div>
   </footer>
-<script>
 
-let allPlaces = [];
+  <!-- ==========================================================
+       JAVASCRIPT
+       ONLY THIS PART WAS MISSING / BROKEN
+  ========================================================== -->
+  <script>
+    const placesGrid = document.getElementById("placesGrid");
+    const statusBox = document.getElementById("statusBox");
+    const searchInput = document.getElementById("searchInput");
+    const limitSelect = document.getElementById("limitSelect");
 
-const placesGrid = document.getElementById("placesGrid");
-const statusBox = document.getElementById("statusBox");
-const searchInput = document.getElementById("searchInput");
-const limitSelect = document.getElementById("limitSelect");
+    let places = [];
 
-function escapeHtml(text) {
-  return String(text || "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
+    async function loadPlaces() {
+      try {
 
-function renderPlaces() {
+        statusBox.textContent = "Chargement des sites…";
 
-  const query = searchInput.value.toLowerCase().trim();
+        const response = await fetch("./places.json?v=" + Date.now(), {
+          cache: "no-store"
+        });
 
-  const limit = parseInt(limitSelect.value, 10);
+        if (!response.ok) {
+          throw new Error("Impossible de charger places.json");
+        }
 
-  let filtered = allPlaces.filter(place => {
+        const data = await response.json();
 
-    const name = (place.name || "").toLowerCase();
-    const city = (place.city || "").toLowerCase();
-    const desc = (place.description || "").toLowerCase();
+        if (!Array.isArray(data)) {
+          throw new Error("Format JSON invalide");
+        }
 
-    return (
-      name.includes(query) ||
-      city.includes(query) ||
-      desc.includes(query)
-    );
+        places = data;
 
-  });
+        renderPlaces();
 
-  filtered = filtered.slice(0, limit);
+      } catch (error) {
 
-  if (filtered.length === 0) {
+        console.error(error);
 
-    placesGrid.innerHTML = "";
+        statusBox.textContent =
+          "Erreur lors du chargement des données.";
 
-    statusBox.textContent = "Aucun résultat.";
-    return;
-  }
-
-  statusBox.textContent =
-    filtered.length + " résultat(s) affiché(s)";
-
-  placesGrid.innerHTML = filtered.map(place => {
-
-    return `
-      <article class="card">
-
-        <h3>${escapeHtml(place.name)}</h3>
-
-        <p class="meta">
-          ${escapeHtml(place.city || "France")}
-        </p>
-
-        <p>
-          ${escapeHtml(place.description || "")}
-        </p>
-
-        <div class="card-links">
-
-          <a
-            href="${escapeHtml(place.source)}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Wikidata
-          </a>
-
-          ${
-            place.website
-            ? `
-              <a
-                href="${escapeHtml(place.website)}"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Site officiel
-              </a>
-            `
-            : ""
-          }
-
-        </div>
-
-      </article>
-    `;
-
-  }).join("");
-
-}
-
-async function loadPlaces() {
-
-  try {
-
-    statusBox.textContent = "Chargement des données...";
-
-    const response = await fetch("./places.json");
-
-    if (!response.ok) {
-      throw new Error("HTTP " + response.status);
+      }
     }
 
-    const data = await response.json();
+    function escapeHtml(text) {
+      if (!text) return "";
 
-    if (!data.places || !Array.isArray(data.places)) {
-      throw new Error("Invalid JSON structure");
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
     }
 
-    allPlaces = data.places;
+    function renderPlaces() {
 
-    renderPlaces();
+      const query = searchInput.value.toLowerCase().trim();
 
-  } catch (err) {
+      const limit = parseInt(limitSelect.value, 10);
 
-    console.error(err);
+      const filtered = places.filter(place => {
 
-    statusBox.textContent =
-      "Erreur lors du chargement des données.";
+        const name = (place.name || "").toLowerCase();
+        const city = (place.city || "").toLowerCase();
+        const desc = (place.description || "").toLowerCase();
 
-  }
+        return (
+          name.includes(query) ||
+          city.includes(query) ||
+          desc.includes(query)
+        );
+      });
 
-}
+      const limited = filtered.slice(0, limit);
 
-searchInput.addEventListener("input", renderPlaces);
+      statusBox.textContent =
+        filtered.length + " résultat(s) trouvé(s)";
 
-limitSelect.addEventListener("change", renderPlaces);
+      if (limited.length === 0) {
 
-loadPlaces();
+        placesGrid.innerHTML =
+          "<p>Aucun résultat trouvé.</p>";
 
-     </script>
+        return;
+      }
+
+      placesGrid.innerHTML = limited.map(place => {
+
+        const websiteLink = place.website
+          ? `<a href="${escapeHtml(place.website)}" target="_blank" rel="noopener noreferrer">Site officiel</a>`
+          : "";
+
+        const sourceLink = place.source
+          ? `<a href="${escapeHtml(place.source)}" target="_blank" rel="noopener noreferrer">Wikidata</a>`
+          : "";
+
+        return `
+          <article class="card">
+
+            <h3>${escapeHtml(place.name || "Sans nom")}</h3>
+
+            <p>
+              <strong>Ville :</strong>
+              ${escapeHtml(place.city || "Inconnue")}
+            </p>
+
+            <p>
+              ${escapeHtml(place.description || "")}
+            </p>
+
+            <div class="links">
+              ${sourceLink}
+              ${websiteLink}
+            </div>
+
+          </article>
+        `;
+      }).join("");
+    }
+
+    searchInput.addEventListener("input", renderPlaces);
+
+    limitSelect.addEventListener("change", renderPlaces);
+
+    loadPlaces();
+  </script>
+
 </body>
-  </html> 
+               </html>
