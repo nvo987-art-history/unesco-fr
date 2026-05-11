@@ -12,6 +12,7 @@
       "lat": 50.072950076,
       "lon": 2.648119738,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q122784272"
     },
@@ -23,6 +24,7 @@
       "lat": 47.639661,
       "lon": 4.389327,
       "website": "http://www.abbayedefontenay.com/fr/",
+      "website_valid": true,
       "description": "abbaye située en Côte-d'Or, en France",
       "source": "http://www.wikidata.org/entity/Q464918"
     },
@@ -34,6 +36,7 @@
       "lat": 46.56477,
       "lon": 0.86597,
       "website": "http://www.abbaye-saint-savin.fr/",
+      "website_valid": true,
       "description": "abbaye située dans la Vienne, en France",
       "source": "http://www.wikidata.org/entity/Q1774129"
     },
@@ -45,6 +48,7 @@
       "lat": 49.2434,
       "lon": 4.0413,
       "website": "",
+      "website_valid": false,
       "description": "ancienne abbaye bénédictine de Reims, France",
       "source": "http://www.wikidata.org/entity/Q27969085"
     },
@@ -56,6 +60,7 @@
       "lat": 45.752777777,
       "lon": 5.839722222,
       "website": "https://hautecombe.chemin-neuf.fr/",
+      "website_valid": true,
       "description": "abbaye située en Savoie, en France",
       "source": "http://www.wikidata.org/entity/Q63524"
     },
@@ -67,6 +72,7 @@
       "lat": 14.7582,
       "lon": -61.0731,
       "website": "",
+      "website_valid": false,
       "description": "site de la liste du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q64842970"
     },
@@ -78,6 +84,7 @@
       "lat": 50.286982,
       "lon": 2.760652,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2782982"
     },
@@ -89,6 +96,7 @@
       "lat": 47.466388888,
       "lon": 3.748333333,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q64401449"
     },
@@ -100,6 +108,7 @@
       "lat": 50.4625,
       "lon": 3.54611,
       "website": "",
+      "website_valid": false,
       "description": "mines de charbon du Nord-Pas-de-Calais en France",
       "source": "http://www.wikidata.org/entity/Q392215"
     },
@@ -111,6 +120,7 @@
       "lat": 50.635266,
       "lon": 3.514842,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial de France et de Belgique",
       "source": "http://www.wikidata.org/entity/Q750675"
     },
@@ -122,6 +132,7 @@
       "lat": 43.61111111,
       "lon": 1.41833333,
       "website": "",
+      "website_valid": false,
       "description": "canal français",
       "source": "http://www.wikidata.org/entity/Q202494"
     },
@@ -133,6 +144,7 @@
       "lat": 49.397205,
       "lon": 4.727118,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire situé dans les Ardennes, en France",
       "source": "http://www.wikidata.org/entity/Q59616773"
     },
@@ -144,6 +156,7 @@
       "lat": 48.504166666,
       "lon": 6.5075,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé en Meurthe-et-Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q122819132"
     },
@@ -155,6 +168,7 @@
       "lat": 49.701635,
       "lon": 4.843142,
       "website": "",
+      "website_valid": false,
       "description": "cimetière à Vrigne-Meuse (Ardennes)",
       "source": "http://www.wikidata.org/entity/Q56599670"
     },
@@ -165,7 +179,8 @@
       "city": "",
       "lat": 49.89457,
       "lon": 2.3021,
-      "website": "",
+      "website": "https://notredameamiens.fr/",
+      "website_valid": false,
       "description": "cathédrale située dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q106934"
     },
@@ -177,6 +192,7 @@
       "lat": 48.447777777,
       "lon": 1.487777777,
       "website": "http://www.cathedrale-chartres.org/",
+      "website_valid": true,
       "description": "cathédrale située en Eure-et-Loir, en France",
       "source": "http://www.wikidata.org/entity/Q180274"
     },
@@ -188,6 +204,7 @@
       "lat": 49.25333333,
       "lon": 4.032777778,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q16912637"
     },
@@ -199,6 +216,7 @@
       "lat": 47.08222,
       "lon": 2.39917,
       "website": "https://www.belleseglises.com/eglises/79",
+      "website_valid": true,
       "description": "cathédrale de Bourges, en France",
       "source": "http://www.wikidata.org/entity/Q207985"
     },
@@ -210,6 +228,7 @@
       "lat": 43.95277778,
       "lon": 4.806111111,
       "website": "",
+      "website_valid": false,
       "description": "établissement humain en France",
       "source": "http://www.wikidata.org/entity/Q15241016"
     },
@@ -221,6 +240,7 @@
       "lat": 49.4891,
       "lon": 0.115222,
       "website": "",
+      "website_valid": false,
       "description": "quartier au Havre (Seine-Maritime)",
       "source": "http://www.wikidata.org/entity/Q2944797"
     },
@@ -232,6 +252,7 @@
       "lat": 47.4697,
       "lon": 3.75028,
       "website": "",
+      "website_valid": false,
       "description": "chapelle située dans l'Yonne, en France",
       "source": "http://www.wikidata.org/entity/Q2957299"
     },
@@ -243,6 +264,7 @@
       "lat": 49.9978,
       "lon": 2.91095,
       "website": "",
+      "website_valid": false,
       "description": "chapelle située dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q60346358"
     },
@@ -254,6 +276,7 @@
       "lat": 43.9539,
       "lon": 4.80506,
       "website": "",
+      "website_valid": false,
       "description": "chapelle située en Vaucluse, en France",
       "source": "http://www.wikidata.org/entity/Q2956943"
     },
@@ -265,6 +288,7 @@
       "lat": 45.184055555,
       "lon": -0.722944444,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q2962473"
     },
@@ -276,6 +300,7 @@
       "lat": 50.5095,
       "lon": 2.85055,
       "website": "",
+      "website_valid": false,
       "description": "chevalement à Billy-Berclau (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q15617061"
     },
@@ -287,6 +312,7 @@
       "lat": 47.616111111,
       "lon": 1.517222222,
       "website": "http://www.chambord.org",
+      "website_valid": true,
       "description": "château français situé à Chambord (Loir-et-Cher)",
       "source": "http://www.wikidata.org/entity/Q205367"
     },
@@ -298,6 +324,7 @@
       "lat": 48.402222222,
       "lon": 2.700555555,
       "website": "https://www.chateaudefontainebleau.fr/",
+      "website_valid": true,
       "description": "domaine national de Fontainebleau, France",
       "source": "http://www.wikidata.org/entity/Q201428"
     },
@@ -309,6 +336,7 @@
       "lat": 48.804722222,
       "lon": 2.120277777,
       "website": "https://www.chateauversailles.fr",
+      "website_valid": true,
       "description": "château à Versailles, en France",
       "source": "http://www.wikidata.org/entity/Q2946"
     },
@@ -320,6 +348,7 @@
       "lat": 49.334167,
       "lon": 5.093333,
       "website": "https://www.abmc.gov/Meuse-Argonne#.WuWVy2cUmpo",
+      "website_valid": true,
       "description": "cimetière situé dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q2215301"
     },
@@ -331,6 +360,7 @@
       "lat": 49.07945,
       "lon": 3.291433333,
       "website": "",
+      "website_valid": false,
       "description": "cimetière américain situé dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q2972492"
     },
@@ -342,6 +372,7 @@
       "lat": 48.956983333,
       "lon": 5.853066666,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé en Meurthe-et-Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q647265"
     },
@@ -353,6 +384,7 @@
       "lat": 50.050634,
       "lon": 2.684152,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q5567396"
     },
@@ -364,6 +396,7 @@
       "lat": 50.350612,
       "lon": 2.74881,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2482169"
     },
@@ -375,6 +408,7 @@
       "lat": 50.033923,
       "lon": 2.715415,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q4991584"
     },
@@ -386,6 +420,7 @@
       "lat": 50.37583,
       "lon": 2.76472,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2331354"
     },
@@ -397,6 +432,7 @@
       "lat": 50.377291,
       "lon": 2.764133,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q1874283"
     },
@@ -407,7 +443,8 @@
       "city": "",
       "lat": 50.186239,
       "lon": 1.722842,
-      "website": "",
+      "website": "http://www.cwgc.org/find-a-cemetery/cemetery/68500/NOYELLES-SUR-MER%20CHINESE%20CEMETERY",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2135937"
     },
@@ -419,6 +456,7 @@
       "lat": 50.773909,
       "lon": 1.613348,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q4554750"
     },
@@ -430,6 +468,7 @@
       "lat": 50.255843,
       "lon": 3.632891,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q1878989"
     },
@@ -441,6 +480,7 @@
       "lat": 50.0239,
       "lon": 2.81277,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2618490"
     },
@@ -452,6 +492,7 @@
       "lat": 50.460067,
       "lon": 2.771216,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2170407"
     },
@@ -463,6 +504,7 @@
       "lat": 50.2867,
       "lon": 2.76057,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2353463"
     },
@@ -474,6 +516,7 @@
       "lat": 50.061188,
       "lon": 2.683248,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2167127"
     },
@@ -485,6 +528,7 @@
       "lat": 48.7865,
       "lon": 3.7754,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q110350440"
     },
@@ -496,6 +540,7 @@
       "lat": 47.8526,
       "lon": 7.17285,
       "website": "",
+      "website_valid": false,
       "description": "cimetiere sur Hartmannswillerkopf",
       "source": "http://www.wikidata.org/entity/Q59281347"
     },
@@ -507,6 +552,7 @@
       "lat": 49.19371,
       "lon": 4.36805,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire situé dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q61744168"
     },
@@ -518,6 +564,7 @@
       "lat": 49.855333,
       "lon": 3.733778,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire situé dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q20973837"
     },
@@ -529,6 +576,7 @@
       "lat": 50.078055555,
       "lon": 2.649722222,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q5944106"
     },
@@ -540,6 +588,7 @@
       "lat": 49.256472222,
       "lon": 4.967472222,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans les Ardennes, en France",
       "source": "http://www.wikidata.org/entity/Q59592141"
     },
@@ -551,6 +600,7 @@
       "lat": 50.17831,
       "lon": 3.26208,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q55596340"
     },
@@ -562,6 +612,7 @@
       "lat": 49.44176,
       "lon": 3.66449,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q19801255"
     },
@@ -573,6 +624,7 @@
       "lat": 49.28,
       "lon": 5.2973,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q51426068"
     },
@@ -584,6 +636,7 @@
       "lat": 48.079027777,
       "lon": 7.144055555,
       "website": "https://www.volksbund.de/kriegsgraeberstaette/hohrod.html",
+      "website_valid": true,
       "description": "cimetière situé dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q59297166"
     },
@@ -595,6 +648,7 @@
       "lat": 48.691666666,
       "lon": 6.711138888,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire situé en Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q60042743"
     },
@@ -606,6 +660,7 @@
       "lat": 48.94197,
       "lon": 6.66462,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé en Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q2972642"
     },
@@ -617,6 +672,7 @@
       "lat": 50.342222222,
       "lon": 2.754166666,
       "website": "https://kriegsgraeberstaetten.volksbund.de/friedhof/neuville-stvaast",
+      "website_valid": true,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q1850310"
     },
@@ -628,6 +684,7 @@
       "lat": 49.42315,
       "lon": 5.70492,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire situé en Meurthe-et-Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q59618084"
     },
@@ -639,6 +696,7 @@
       "lat": 49.99675,
       "lon": 2.90469,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q18005365"
     },
@@ -650,6 +708,7 @@
       "lat": 49.8479,
       "lon": 3.26105,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire à Saint-Quentin (Aisne)",
       "source": "http://www.wikidata.org/entity/Q2972643"
     },
@@ -661,6 +720,7 @@
       "lat": 49.189083333,
       "lon": 4.535944444,
       "website": "https://www.volksbund.de/kriegsgraeberstaette/souain.html",
+      "website_valid": true,
       "description": "cimetière situé dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q59594168"
     },
@@ -672,6 +732,7 @@
       "lat": 48.877666666,
       "lon": 5.608444444,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire situé dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q51619032"
     },
@@ -683,6 +744,7 @@
       "lat": 49.568583333,
       "lon": 2.885083333,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans l'Oise, en France",
       "source": "http://www.wikidata.org/entity/Q60162677"
     },
@@ -694,6 +756,7 @@
       "lat": 49.5324,
       "lon": 3.73441,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q2972648"
     },
@@ -705,6 +768,7 @@
       "lat": 48.160194444,
       "lon": 7.126944444,
       "website": "",
+      "website_valid": false,
       "description": "cimetière disparu situé dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q122808656"
     },
@@ -716,6 +780,7 @@
       "lat": 50.535277777,
       "lon": 1.6225,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2972667"
     },
@@ -727,6 +792,7 @@
       "lat": 50.179304,
       "lon": 3.262198,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé à Cambrai, dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q2289403"
     },
@@ -738,6 +804,7 @@
       "lat": 49.396894,
       "lon": 4.727604,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans les Ardennes, en France",
       "source": "http://www.wikidata.org/entity/Q20973930"
     },
@@ -749,6 +816,7 @@
       "lat": 50.089299,
       "lon": 2.50374,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2518785"
     },
@@ -760,6 +828,7 @@
       "lat": 50.136683,
       "lon": 3.015388,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q8514477"
     },
@@ -771,6 +840,7 @@
       "lat": 49.99815,
       "lon": 2.90985,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2658699"
     },
@@ -782,6 +852,7 @@
       "lat": 49.886238,
       "lon": 2.5082,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2065958"
     },
@@ -793,6 +864,7 @@
       "lat": 48.267,
       "lon": 7.055777777,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans les Vosges, en France",
       "source": "http://www.wikidata.org/entity/Q2972659"
     },
@@ -804,6 +876,7 @@
       "lat": 48.038966176,
       "lon": 7.059401739,
       "website": "",
+      "website_valid": false,
       "description": "cimetière disparu situé dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q122808695"
     },
@@ -815,6 +888,7 @@
       "lat": 49.1884,
       "lon": 3.84087,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q2972661"
     },
@@ -826,6 +900,7 @@
       "lat": 49.334678,
       "lon": 3.532079,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q12307718"
     },
@@ -837,6 +912,7 @@
       "lat": 50.57347,
       "lon": 2.77586,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q16507500"
     },
@@ -848,6 +924,7 @@
       "lat": 49.158437,
       "lon": 4.399487,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q21568987"
     },
@@ -859,6 +936,7 @@
       "lat": 50.365833333,
       "lon": 2.74475,
       "website": "",
+      "website_valid": false,
       "description": "monument commémoratif tchécoslovaque en France",
       "source": "http://www.wikidata.org/entity/Q27479551"
     },
@@ -870,6 +948,7 @@
       "lat": 47.956313,
       "lon": 7.215799,
       "website": "",
+      "website_valid": false,
       "description": "cimetière roumain",
       "source": "http://www.wikidata.org/entity/Q52989504"
     },
@@ -881,6 +960,7 @@
       "lat": 43.206439,
       "lon": 2.363788,
       "website": "https://www.remparts-carcassonne.fr/",
+      "website_valid": true,
       "description": "ensemble architectural médiéval dans le département de l'Aude, en France",
       "source": "http://www.wikidata.org/entity/Q389269"
     },
@@ -892,6 +972,7 @@
       "lat": 50.482183,
       "lon": 2.55356,
       "website": "https://www.citedeselectriciens.fr/fr",
+      "website_valid": true,
       "description": "cité à Bruay-la-Buissière (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q22997438"
     },
@@ -903,6 +984,7 @@
       "lat": 43.9283,
       "lon": 2.1425,
       "website": "",
+      "website_valid": false,
       "description": "établissement humain en France",
       "source": "http://www.wikidata.org/entity/Q1778266"
     },
@@ -914,6 +996,7 @@
       "lat": 49.0775,
       "lon": 3.94611,
       "website": "https://www.champagne-patrimoinemondial.org/",
+      "website_valid": true,
       "description": "site du patrimoine mondial de l'UNESCO dans le département de la Marne",
       "source": "http://www.wikidata.org/entity/Q20650698"
     },
@@ -925,6 +1008,7 @@
       "lat": 50.359713,
       "lon": 2.77658,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q4681068"
     },
@@ -936,6 +1020,7 @@
       "lat": 46.9375,
       "lon": 5.876388889,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q15726441"
     },
@@ -947,6 +1032,7 @@
       "lat": 48.512796,
       "lon": 7.165281,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q59310530"
     },
@@ -958,6 +1044,7 @@
       "lat": 49.216667,
       "lon": 5.438889,
       "website": "",
+      "website_valid": false,
       "description": "fort à Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q186536"
     },
@@ -969,6 +1056,7 @@
       "lat": 50.2825,
       "lon": 2.75888889,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q833781"
     },
@@ -980,6 +1068,7 @@
       "lat": 49.0,
       "lon": 15.0,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q156011"
     },
@@ -991,6 +1080,7 @@
       "lat": 50.607772,
       "lon": 2.851058,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q1469828"
     },
@@ -1002,6 +1092,7 @@
       "lat": 42.32519444,
       "lon": 8.628833333,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q15728421"
     },
@@ -1012,7 +1103,8 @@
       "city": "",
       "lat": 50.492222222,
       "lon": 5.866944444,
-      "website": "",
+      "website": "https://www.greatspatownsofeurope.eu",
+      "website_valid": false,
       "description": "site transnational du patrimoine mondial de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q16064866"
     },
@@ -1024,6 +1116,7 @@
       "lat": 44.3881219,
       "lon": 4.4161408,
       "website": "https://archeologie.culture.gouv.fr/chauvet/fr/visiter-la-grotte",
+      "website_valid": true,
       "description": "grotte ornée paléolithique à Vallon-Pont-d'Arc, Ardèche, France",
       "source": "http://www.wikidata.org/entity/Q374096"
     },
@@ -1035,6 +1128,7 @@
       "lat": 50.4421,
       "lon": 2.80957,
       "website": "",
+      "website_valid": false,
       "description": "école à Lens (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q3117924"
     },
@@ -1046,6 +1140,7 @@
       "lat": 45.77939,
       "lon": 2.96511,
       "website": "https://www.chainedespuys-failledelimagne.com/",
+      "website_valid": true,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q64832437"
     },
@@ -1057,6 +1152,7 @@
       "lat": 48.808055555,
       "lon": 2.108333333,
       "website": "https://www.chateauversailles.fr",
+      "website_valid": true,
       "description": "jardin situé à l'ouest du château de Versailles",
       "source": "http://www.wikidata.org/entity/Q3162464"
     },
@@ -1068,6 +1164,7 @@
       "lat": 44.894722222,
       "lon": 0.155277777,
       "website": "",
+      "website_valid": false,
       "description": "territoire viticole français",
       "source": "http://www.wikidata.org/entity/Q2987951"
     },
@@ -1079,6 +1176,7 @@
       "lat": -20.411944444,
       "lon": 164.566388888,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en Nouvelle-Calédonie",
       "source": "http://www.wikidata.org/entity/Q1330981"
     },
@@ -1090,6 +1188,7 @@
       "lat": 44.2203,
       "lon": 3.4731,
       "website": "http://www.causses-et-cevennes.fr/",
+      "website_valid": true,
       "description": "territoires du Massif central méridional inscrit au patrimoine mondiale de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q10444176"
     },
@@ -1101,6 +1200,7 @@
       "lat": 47.058055555,
       "lon": 4.864444444,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q20650612"
     },
@@ -1112,6 +1212,7 @@
       "lat": 49.2142,
       "lon": 3.40909,
       "website": "",
+      "website_valid": false,
       "description": "monument aux morts à Oulchy-le-Château (Aisne)",
       "source": "http://www.wikidata.org/entity/Q3232521"
     },
@@ -1123,6 +1224,7 @@
       "lat": 43.838194,
       "lon": 4.356111,
       "website": "https://www.maisoncarree.eu/en/",
+      "website_valid": true,
       "description": "temple romain à Nîmes en France",
       "source": "http://www.wikidata.org/entity/Q677659"
     },
@@ -1134,6 +1236,7 @@
       "lat": -16.836111111,
       "lon": -151.359166666,
       "website": "",
+      "website_valid": false,
       "description": "lieu sacré sur l'île de Raiatea, Îles de la Société, Polynésie française",
       "source": "http://www.wikidata.org/entity/Q3287362"
     },
@@ -1145,6 +1248,7 @@
       "lat": 42.671002,
       "lon": 0.030877,
       "website": "",
+      "website_valid": false,
       "description": "massif montagneux des Pyrénées de part et d’autre de la frontière franco-espagnole",
       "source": "http://www.wikidata.org/entity/Q8554028"
     },
@@ -1156,6 +1260,7 @@
       "lat": 48.63556,
       "lon": -1.51056,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q17117964"
     },
@@ -1167,6 +1272,7 @@
       "lat": 49.71167,
       "lon": 4.94208,
       "website": "",
+      "website_valid": false,
       "description": "monument aux morts à Sedan (Ardennes)",
       "source": "http://www.wikidata.org/entity/Q56599715"
     },
@@ -1178,6 +1284,7 @@
       "lat": 50.136666666,
       "lon": 3.015277777,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q1854219"
     },
@@ -1189,6 +1296,7 @@
       "lat": 49.218527,
       "lon": 4.542029,
       "website": "",
+      "website_valid": false,
       "description": "monument aux morts à Sainte-Marie-à-Py et Souain-Perthes-lès-Hurlus (Marne)",
       "source": "http://www.wikidata.org/entity/Q2873119"
     },
@@ -1200,6 +1308,7 @@
       "lat": 49.20594,
       "lon": 5.420683,
       "website": "",
+      "website_valid": false,
       "description": "monument aux morts à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q22997159"
     },
@@ -1211,6 +1320,7 @@
       "lat": 49.848333333,
       "lon": 3.262611111,
       "website": "",
+      "website_valid": false,
       "description": "monument aux morts à Saint-Quentin (Aisne)",
       "source": "http://www.wikidata.org/entity/Q60221092"
     },
@@ -1222,6 +1332,7 @@
       "lat": 49.208861111,
       "lon": 5.428166666,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q122842228"
     },
@@ -1233,6 +1344,7 @@
       "lat": 47.858820805,
       "lon": 7.150173111,
       "website": "http://www.memorial-hwk.eu/monument-national.php",
+      "website_valid": true,
       "description": "mémorial de la Première Guerre mondiale situé dans le Haut-Rhin",
       "source": "http://www.wikidata.org/entity/Q20895234"
     },
@@ -1244,6 +1356,7 @@
       "lat": 43.677638888,
       "lon": 4.630694444,
       "website": "",
+      "website_valid": false,
       "description": "cryptoportiques",
       "source": "http://www.wikidata.org/entity/Q1279597"
     },
@@ -1255,6 +1368,7 @@
       "lat": 47.616111111,
       "lon": -3.087222222,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial de France",
       "source": "http://www.wikidata.org/entity/Q135287050"
     },
@@ -1266,6 +1380,7 @@
       "lat": 50.186076,
       "lon": 1.722666,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2566225"
     },
@@ -1277,6 +1392,7 @@
       "lat": 50.460853,
       "lon": 2.77177,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2478266"
     },
@@ -1288,6 +1404,7 @@
       "lat": 50.575103,
       "lon": 2.77513,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2917267"
     },
@@ -1299,6 +1416,7 @@
       "lat": 50.034499,
       "lon": 2.714829,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q3059864"
     },
@@ -1310,6 +1428,7 @@
       "lat": 50.050555555,
       "lon": 2.685833333,
       "website": "",
+      "website_valid": false,
       "description": "cimetière franco-britanique situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q1861419"
     },
@@ -1321,6 +1440,7 @@
       "lat": 49.0714,
       "lon": 3.6465,
       "website": "",
+      "website_valid": false,
       "description": "chapelle à Dormans (Marne)",
       "source": "http://www.wikidata.org/entity/Q3333153"
     },
@@ -1332,6 +1452,7 @@
       "lat": 50.286989,
       "lon": 2.760418,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2674251"
     },
@@ -1343,6 +1464,7 @@
       "lat": 49.44301728,
       "lon": 3.667091878,
       "website": "",
+      "website_valid": false,
       "description": "monument situé dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q19407109"
     },
@@ -1354,6 +1476,7 @@
       "lat": 49.887008,
       "lon": 2.51291,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2544355"
     },
@@ -1365,6 +1488,7 @@
       "lat": 50.379444444,
       "lon": 2.773611111,
       "website": "http://www.veterans.gc.ca/eng/remembrance/memorials/overseas/first-world-war/france/vimy/",
+      "website_valid": true,
       "description": "mémorial canadien commémorant la Première Guerre mondiale",
       "source": "http://www.wikidata.org/entity/Q2561040"
     },
@@ -1376,6 +1500,7 @@
       "lat": 50.024482,
       "lon": 2.812678,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2374137"
     },
@@ -1387,6 +1512,7 @@
       "lat": 50.073838,
       "lon": 2.648229,
       "website": "",
+      "website_valid": false,
       "description": "monument aux morts à Beaumont-Hamel et Auchonvillers",
       "source": "http://www.wikidata.org/entity/Q813418"
     },
@@ -1398,6 +1524,7 @@
       "lat": 43.701694444,
       "lon": 7.272305555,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial à Nice, France",
       "source": "http://www.wikidata.org/entity/Q108094935"
     },
@@ -1409,6 +1536,7 @@
       "lat": 49.13415,
       "lon": 6.19403,
       "website": "",
+      "website_valid": false,
       "description": "nécropole située en Moselle",
       "source": "http://www.wikidata.org/entity/Q19407143"
     },
@@ -1420,6 +1548,7 @@
       "lat": 50.291804,
       "lon": 4.018529,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q2292418"
     },
@@ -1431,6 +1560,7 @@
       "lat": 49.924055,
       "lon": 3.981429,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q20971295"
     },
@@ -1442,6 +1572,7 @@
       "lat": 49.4428,
       "lon": 3.66657,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q19945177"
     },
@@ -1453,6 +1584,7 @@
       "lat": 49.40308,
       "lon": 2.81376,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans l'Oise, en France",
       "source": "http://www.wikidata.org/entity/Q19407144"
     },
@@ -1464,6 +1596,7 @@
       "lat": 49.431917,
       "lon": 3.773009,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans l'Aisne, en France",
       "source": "http://www.wikidata.org/entity/Q19945178"
     },
@@ -1475,6 +1608,7 @@
       "lat": 49.528857,
       "lon": 3.092132,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans l'Oise, en France",
       "source": "http://www.wikidata.org/entity/Q19407145"
     },
@@ -1486,6 +1620,7 @@
       "lat": 48.840694,
       "lon": 6.835239,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située en Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q20970719"
     },
@@ -1497,6 +1632,7 @@
       "lat": 49.165725,
       "lon": 5.404888,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q20973918"
     },
@@ -1508,6 +1644,7 @@
       "lat": 49.20689555,
       "lon": 5.424454807,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q56718530"
     },
@@ -1519,6 +1656,7 @@
       "lat": 49.191637,
       "lon": 4.555626,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q21570181"
     },
@@ -1530,6 +1668,7 @@
       "lat": 49.18787,
       "lon": 4.53837,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q19951185"
     },
@@ -1541,6 +1680,7 @@
       "lat": 49.18264,
       "lon": 4.510313,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q21570189"
     },
@@ -1552,6 +1692,7 @@
       "lat": 48.347666,
       "lon": 6.999968,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale à Ban-de-Sapt (Vosges)",
       "source": "http://www.wikidata.org/entity/Q20749195"
     },
@@ -1563,6 +1704,7 @@
       "lat": 49.167499,
       "lon": 5.003304,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q20973830"
     },
@@ -1574,6 +1716,7 @@
       "lat": 48.979984,
       "lon": 2.801648,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située en Seine-et-Marne, en France",
       "source": "http://www.wikidata.org/entity/Q20819675"
     },
@@ -1585,6 +1728,7 @@
       "lat": 49.196151,
       "lon": 4.916392,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q20973921"
     },
@@ -1596,6 +1740,7 @@
       "lat": 49.196505,
       "lon": 4.565684,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q21570192"
     },
@@ -1607,6 +1752,7 @@
       "lat": 50.35014,
       "lon": 2.74672,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q16509755"
     },
@@ -1618,6 +1764,7 @@
       "lat": 48.691849,
       "lon": 6.699922,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située en Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q20973832"
     },
@@ -1629,6 +1776,7 @@
       "lat": 47.8595,
       "lon": 7.0547,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q15948413"
     },
@@ -1640,6 +1788,7 @@
       "lat": 50.401111111,
       "lon": 2.718888888,
       "website": "",
+      "website_valid": false,
       "description": "cimetière militaire et mémorial, Pas-de-Calais, France",
       "source": "http://www.wikidata.org/entity/Q2972644"
     },
@@ -1651,6 +1800,7 @@
       "lat": 49.414831,
       "lon": 5.704117,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située en Meurthe-et-Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q20973867"
     },
@@ -1662,6 +1812,7 @@
       "lat": 49.99793,
       "lon": 2.91111,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q16509773"
     },
@@ -1673,6 +1824,7 @@
       "lat": 48.905936,
       "lon": 6.630159,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située en Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q20973879"
     },
@@ -1684,6 +1836,7 @@
       "lat": 48.37009,
       "lon": 6.77441,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans les Vosges, en France",
       "source": "http://www.wikidata.org/entity/Q19407153"
     },
@@ -1695,6 +1848,7 @@
       "lat": 49.200420035,
       "lon": 4.888530218,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q19951189"
     },
@@ -1706,6 +1860,7 @@
       "lat": 49.568836,
       "lon": 2.885691,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans l'Oise, en France",
       "source": "http://www.wikidata.org/entity/Q20973907"
     },
@@ -1717,6 +1872,7 @@
       "lat": 49.195632,
       "lon": 5.075144,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q20973913"
     },
@@ -1728,6 +1884,7 @@
       "lat": 48.742418,
       "lon": 7.034498,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située en Moselle, en France",
       "source": "http://www.wikidata.org/entity/Q19407152"
     },
@@ -1739,6 +1896,7 @@
       "lat": 48.287013,
       "lon": 6.924335,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans les Vosges, en France",
       "source": "http://www.wikidata.org/entity/Q20973884"
     },
@@ -1750,6 +1908,7 @@
       "lat": 48.14875,
       "lon": 7.107638888,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q20973865"
     },
@@ -1761,6 +1920,7 @@
       "lat": 47.859085,
       "lon": 7.151521,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q20973932"
     },
@@ -1772,6 +1932,7 @@
       "lat": 49.065465,
       "lon": 5.605921,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q20973811"
     },
@@ -1783,6 +1944,7 @@
       "lat": 48.088831,
       "lon": 7.117907,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q20973864"
     },
@@ -1794,6 +1956,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
+      "website_valid": false,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
@@ -1805,6 +1968,7 @@
       "lat": 49.200029,
       "lon": 4.889912,
       "website": "",
+      "website_valid": false,
       "description": "nécropole nationale située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q20973920"
     },
@@ -1816,6 +1980,7 @@
       "lat": 49.189138888,
       "lon": 4.994083333,
       "website": "",
+      "website_valid": false,
       "description": "ossuaire situé dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q55598898"
     },
@@ -1827,6 +1992,7 @@
       "lat": 43.9292,
       "lon": 2.14306,
       "website": "",
+      "website_valid": false,
       "description": "ancien palais des évêques d'Albi, héberge le musée Toulouse-Lautrec",
       "source": "http://www.wikidata.org/entity/Q3361047"
     },
@@ -1838,6 +2004,7 @@
       "lat": 48.805,
       "lon": 2.119444444,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q3034552"
     },
@@ -1848,7 +2015,8 @@
       "city": "",
       "lat": 48.808056,
       "lon": 2.108333,
-      "website": "",
+      "website": "http://www.chateauversailles.fr/en/132_The_Grand_Park.php",
+      "website_valid": false,
       "description": "parc français",
       "source": "http://www.wikidata.org/entity/Q2340684"
     },
@@ -1860,6 +2028,7 @@
       "lat": 50.07391,
       "lon": 2.64837,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q63077309"
     },
@@ -1871,6 +2040,7 @@
       "lat": 45.5863198,
       "lon": -1.1733254,
       "website": "",
+      "website_valid": false,
       "description": "phare à l'embouchure de l'estuaire de la Gironde, Le Verdon-sur-Mer",
       "source": "http://www.wikidata.org/entity/Q199234"
     },
@@ -1882,6 +2052,7 @@
       "lat": -21.0994,
       "lon": 55.48,
       "website": "",
+      "website_valid": false,
       "description": "bien naturel inscrit au patrimoine mondial de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q2710055"
     },
@@ -1893,6 +2064,7 @@
       "lat": 48.69361111,
       "lon": 6.183333333,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q15728409"
     },
@@ -1904,6 +2076,7 @@
       "lat": 47.21375,
       "lon": 0.07497,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q54806811"
     },
@@ -1915,6 +2088,7 @@
       "lat": 43.953888888,
       "lon": 4.805,
       "website": "",
+      "website_valid": false,
       "description": "pont à Avignon, France",
       "source": "http://www.wikidata.org/entity/Q284444"
     },
@@ -1926,6 +2100,7 @@
       "lat": 43.9473,
       "lon": 4.5355,
       "website": "https://www.pontdugard.fr",
+      "website_valid": true,
       "description": "pont-aqueduc romain à trois niveaux d'étages situé sur la commune de Vers-Pont-du-Gard",
       "source": "http://www.wikidata.org/entity/Q189764"
     },
@@ -1937,6 +2112,7 @@
       "lat": 44.838888888,
       "lon": -0.572222222,
       "website": "",
+      "website_valid": false,
       "description": "port historique de Bordeaux",
       "source": "http://www.wikidata.org/entity/Q2249113"
     },
@@ -1948,6 +2124,7 @@
       "lat": 48.559722222,
       "lon": 3.298888888,
       "website": "",
+      "website_valid": false,
       "description": "ville inscrite au patrimoine mondial UNESCO",
       "source": "http://www.wikidata.org/entity/Q28827968"
     },
@@ -1959,6 +2136,7 @@
       "lat": 42.65,
       "lon": 0.05,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q3411434"
     },
@@ -1970,6 +2148,7 @@
       "lat": 49.041216666,
       "lon": 3.969669444,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q136703898"
     },
@@ -1981,6 +2160,7 @@
       "lat": 48.85,
       "lon": 2.35889,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial à Paris, France",
       "source": "http://www.wikidata.org/entity/Q2233532"
     },
@@ -1992,6 +2172,7 @@
       "lat": -49.1397,
       "lon": 69.5811,
       "website": "",
+      "website_valid": false,
       "description": "réserve naturelle nationale de France",
       "source": "http://www.wikidata.org/entity/Q3457508"
     },
@@ -2002,7 +2183,8 @@
       "city": "",
       "lat": 46.566111111,
       "lon": 0.863611111,
-      "website": "",
+      "website": "http://www.saintsavin.fr",
+      "website_valid": false,
       "description": "commune française du département de la Vienne",
       "source": "http://www.wikidata.org/entity/Q738657"
     },
@@ -2014,6 +2196,7 @@
       "lat": 47.674596574,
       "lon": 9.120991545,
       "website": "http://www.palafittes.org/",
+      "website_valid": true,
       "description": "vestiges d'habitations lacustres préhistoriques",
       "source": "http://www.wikidata.org/entity/Q4580"
     },
@@ -2025,6 +2208,7 @@
       "lat": 45.0575,
       "lon": 1.17,
       "website": "",
+      "website_valid": false,
       "description": "ensemble de sites préhistoriques dans la Dordogne, en France",
       "source": "http://www.wikidata.org/entity/Q463159"
     },
@@ -2036,6 +2220,7 @@
       "lat": 48.58444,
       "lon": 7.74889,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q55523908"
     },
@@ -2047,6 +2232,7 @@
       "lat": 49.19693,
       "lon": 5.4298,
       "website": "",
+      "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q122878257"
     },
@@ -2058,6 +2244,7 @@
       "lat": 44.13572222,
       "lon": 4.808416667,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q15726321"
     },
@@ -2069,6 +2256,7 @@
       "lat": 44.837619444,
       "lon": -0.576555555,
       "website": "https://www.pey-berland.fr/",
+      "website_valid": true,
       "description": "clocher de la cathédrale de Bordeaux (Gironde)",
       "source": "http://www.wikidata.org/entity/Q954262"
     },
@@ -2080,6 +2268,7 @@
       "lat": 49.2139,
       "lon": 5.42528,
       "website": "",
+      "website_valid": false,
       "description": "tranchée à Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q3247141"
     },
@@ -2091,6 +2280,7 @@
       "lat": 50.61957,
       "lon": 2.83367,
       "website": "",
+      "website_valid": false,
       "description": "cimetière situé dans le Nord, en France",
       "source": "http://www.wikidata.org/entity/Q2040499"
     },
@@ -2102,6 +2292,7 @@
       "lat": 47.21629,
       "lon": 0.06218,
       "website": "",
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q2789507"
     },
@@ -2113,6 +2304,7 @@
       "lat": 45.763056,
       "lon": 4.828056,
       "website": "",
+      "website_valid": false,
       "description": "quartier lyonnais",
       "source": "http://www.wikidata.org/entity/Q8399"
     },
@@ -2124,6 +2316,7 @@
       "lat": 48.78658,
       "lon": 3.77552,
       "website": "",
+      "website_valid": false,
       "description": "église située dans la Marne, en France",
       "source": "http://www.wikidata.org/entity/Q41780872"
     },
@@ -2135,6 +2328,7 @@
       "lat": -8.9,
       "lon": -139.6,
       "website": "",
+      "website_valid": false,
       "description": "un des cinq archipels de la Polynésie française",
       "source": "http://www.wikidata.org/entity/Q172697"
     },
@@ -2146,6 +2340,7 @@
       "lat": 46.468414,
       "lon": 6.829336,
       "website": "http://www.sites-le-corbusier.org/",
+      "website_valid": true,
       "description": "17 sites conçus, au XXe siècle, par l'architecte franco-suisse Le Corbusier sur trois continents",
       "source": "http://www.wikidata.org/entity/Q55619850"
     }
