@@ -165,7 +165,7 @@
       "city": "",
       "lat": 49.89457,
       "lon": 2.3021,
-      "website": "https://notredameamiens.fr/",
+      "website": "",
       "description": "cathédrale située dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q106934"
     },
@@ -407,7 +407,7 @@
       "city": "",
       "lat": 50.186239,
       "lon": 1.722842,
-      "website": "http://www.cwgc.org/find-a-cemetery/cemetery/68500/NOYELLES-SUR-MER%20CHINESE%20CEMETERY",
+      "website": "",
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2135937"
     },
@@ -1012,7 +1012,7 @@
       "city": "",
       "lat": 50.492222222,
       "lon": 5.866944444,
-      "website": "https://www.greatspatownsofeurope.eu",
+      "website": "",
       "description": "site transnational du patrimoine mondial de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q16064866"
     },
@@ -1848,7 +1848,7 @@
       "city": "",
       "lat": 48.808056,
       "lon": 2.108333,
-      "website": "http://www.chateauversailles.fr/en/132_The_Grand_Park.php",
+      "website": "",
       "description": "parc français",
       "source": "http://www.wikidata.org/entity/Q2340684"
     },
@@ -2002,7 +2002,7 @@
       "city": "",
       "lat": 46.566111111,
       "lon": 0.863611111,
-      "website": "http://www.saintsavin.fr",
+      "website": "",
       "description": "commune française du département de la Vienne",
       "source": "http://www.wikidata.org/entity/Q738657"
     },
