@@ -25,7 +25,7 @@ def fetch_json(req, retries=5):
                 try:
                     return json.loads(raw)
                 except json.JSONDecodeError:
-                    print("ERROR: Wikidata response is not valid JSON (attempt", attempt + 1, ")")
+                    print("ERROR: Invalid JSON response (attempt", attempt + 1, ")")
                     print(raw[:500])
 
         except Exception as e:
@@ -60,26 +60,20 @@ def run_sparql(query):
 
 def main():
 
+    # JAVÍTVA:
+    # csak 1 koordináta / UNESCO item
+    # nincs city -> nincs duplikáció
+
     query = f"""
-    SELECT DISTINCT
-      ?place
-      ?placeLabel
-      ?lat
-      ?lon
-      ?cityLabel
-      ?website
-      ?description
-    WHERE {{
+    SELECT ?place ?placeLabel ?lat ?lon ?website ?description WHERE {{
 
       ?place wdt:P1435 {UNESCO_TYPE} .
-      ?place wdt:P17 wd:Q142 .   # France
+      ?place wdt:P17 wd:Q142 .
 
       OPTIONAL {{ ?place wdt:P625 ?coord . }}
 
       BIND(geof:latitude(?coord) AS ?lat)
       BIND(geof:longitude(?coord) AS ?lon)
-
-      OPTIONAL {{ ?place wdt:P131 ?city . }}
 
       OPTIONAL {{ ?place wdt:P856 ?website . }}
 
@@ -103,9 +97,10 @@ def main():
     print("Raw results:", len(results))
 
     places = []
-    unique_places = {}
+    seen_ids = set()
 
     for r in results:
+
         lat = r.get("lat", {}).get("value")
         lon = r.get("lon", {}).get("value")
 
@@ -116,15 +111,17 @@ def main():
         place_url = r.get("place", {}).get("value", "")
         place_id = place_url.split("/")[-1] if place_url else ""
 
-        # DUPLIKÁCIÓ SZŰRÉS ID alapján
-        if not place_id or place_id in unique_places:
+        # DUPLIKÁCIÓ SZŰRÉS
+        if place_id in seen_ids:
             continue
+
+        seen_ids.add(place_id)
 
         place = {
             "id": place_id,
             "name": safe(r.get("placeLabel", {}).get("value")),
             "type": "UNESCO World Heritage",
-            "city": safe(r.get("cityLabel", {}).get("value")),
+            "city": "",  # nincs több random city duplikáció
             "lat": float(lat),
             "lon": float(lon),
             "website": safe(r.get("website", {}).get("value")),
@@ -133,11 +130,9 @@ def main():
         }
 
         if place["name"]:
-            unique_places[place_id] = place
+            places.append(place)
 
-    places = list(unique_places.values())
-
-    # rendezés név szerint
+    # név szerinti rendezés
     places.sort(key=lambda x: x["name"].lower())
 
     final = {
@@ -151,7 +146,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(final, f, ensure_ascii=False, indent=2)
 
-    print(f"Generated {OUTPUT_FILE} with {len(places)} unique UNESCO places.")
+    print(f"Generated {OUTPUT_FILE} with {len(places)} unique places.")
 
 
 if __name__ == "__main__":
