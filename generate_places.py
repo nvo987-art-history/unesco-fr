@@ -17,10 +17,30 @@ def safe(val):
     return str(val).strip()
 
 
-# SSL FIX
-ssl_context = ssl.create_default_context()
-ssl_context.check_hostname = False
-ssl_context.verify_mode = ssl.CERT_NONE
+def is_valid_website(url):
+    if not url:
+        return False
+
+    try:
+        ctx = ssl.create_default_context()
+
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0"
+            }
+        )
+
+        with urllib.request.urlopen(
+            req,
+            timeout=10,
+            context=ctx
+        ) as response:
+
+            return response.status < 400
+
+    except:
+        return False
 
 
 def fetch_json(req, retries=5):
@@ -28,14 +48,14 @@ def fetch_json(req, retries=5):
         try:
             with urllib.request.urlopen(
                 req,
-                timeout=120,
-                context=ssl_context
+                timeout=120
             ) as response:
 
                 raw = response.read().decode("utf-8", errors="replace")
 
                 try:
                     return json.loads(raw)
+
                 except json.JSONDecodeError:
                     print("ERROR: Invalid JSON response (attempt", attempt + 1, ")")
                     print(raw[:500])
@@ -123,6 +143,12 @@ def main():
 
         seen_ids.add(place_id)
 
+        website = safe(r.get("website", {}).get("value"))
+
+        # SSL / HTTPS hibás oldalak kiszűrése
+        if not is_valid_website(website):
+            website = ""
+
         place = {
             "id": place_id,
             "name": safe(r.get("placeLabel", {}).get("value")),
@@ -130,7 +156,7 @@ def main():
             "city": "",
             "lat": float(lat),
             "lon": float(lon),
-            "website": safe(r.get("website", {}).get("value")),
+            "website": website,
             "description": safe(r.get("description", {}).get("value")),
             "source": place_url
         }
