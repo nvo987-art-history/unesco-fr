@@ -348,7 +348,7 @@
       "lat": 49.334167,
       "lon": 5.093333,
       "website": "https://www.abmc.gov/Meuse-Argonne#.WuWVy2cUmpo",
-      "website_valid": false,
+      "website_valid": true,
       "description": "cimetière situé dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q2215301"
     },
@@ -1956,7 +1956,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
