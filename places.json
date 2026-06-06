@@ -996,7 +996,7 @@
       "lat": 49.0775,
       "lon": 3.94611,
       "website": "https://www.champagne-patrimoinemondial.org/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "site du patrimoine mondial de l'UNESCO dans le département de la Marne",
       "source": "http://www.wikidata.org/entity/Q20650698"
     },
