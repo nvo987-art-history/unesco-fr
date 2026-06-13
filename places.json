@@ -1344,7 +1344,7 @@
       "lat": 47.858820805,
       "lon": 7.150173111,
       "website": "http://www.memorial-hwk.eu/monument-national.php",
-      "website_valid": false,
+      "website_valid": true,
       "description": "mémorial de la Première Guerre mondiale situé dans le Haut-Rhin",
       "source": "http://www.wikidata.org/entity/Q20895234"
     },
