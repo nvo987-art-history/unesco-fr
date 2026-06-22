@@ -1956,7 +1956,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
@@ -2196,7 +2196,7 @@
       "lat": 47.674596574,
       "lon": 9.120991545,
       "website": "http://www.palafittes.org/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "vestiges d'habitations lacustres préhistoriques",
       "source": "http://www.wikidata.org/entity/Q4580"
     },
