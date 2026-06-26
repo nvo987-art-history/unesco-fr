@@ -1488,7 +1488,7 @@
       "lat": 50.379444444,
       "lon": 2.773611111,
       "website": "http://www.veterans.gc.ca/eng/remembrance/memorials/overseas/first-world-war/france/vimy/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "mémorial canadien commémorant la Première Guerre mondiale",
       "source": "http://www.wikidata.org/entity/Q2561040"
     },
@@ -1956,7 +1956,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
