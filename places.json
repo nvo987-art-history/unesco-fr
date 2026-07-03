@@ -192,7 +192,7 @@
       "lat": 48.447777777,
       "lon": 1.487777777,
       "website": "http://www.cathedrale-chartres.org/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "cathédrale située en Eure-et-Loir, en France",
       "source": "http://www.wikidata.org/entity/Q180274"
     },
@@ -1956,7 +1956,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
