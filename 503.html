@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>503 - Service Unavailable</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --gold:#d4af37;
+    --border:rgba(212,175,55,.25);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+    background:radial-gradient(circle at top,#111 0%,#080808 30%,#000 100%);
+    color:#f5f5f5;
+    font-family:'Cormorant Garamond', serif;
+    min-height:100vh;
+}
+
+.hero{text-align:center;padding:140px 20px 100px;}
+
+.logo{
+    font-family:'Playfair Display', serif;
+    font-size:8rem;
+    letter-spacing:12px;
+    background:linear-gradient(180deg,#fff7d1,#f8d56c,#d4af37,#8b6b11);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.subtitle{
+    margin-top:15px;
+    letter-spacing:6px;
+    color:#b99a37;
+    text-transform:uppercase;
+}
+
+.tagline{
+    max-width:800px;
+    margin:40px auto 0;
+    font-size:1.5rem;
+    color:#d8d8d8;
+}
+
+.feature{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto 100px;
+    padding:70px;
+    border-radius:30px;
+    text-align:center;
+    border:1px solid var(--border);
+    background:rgba(212,175,55,.03);
+}
+
+.feature h2{
+    font-size:4rem;
+    margin-bottom:20px;
+    background:linear-gradient(180deg,#fff8d0,#d4af37);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.feature p{
+    font-size:1.4rem;
+    color:#d7d7d7;
+}
+
+.home-btn{
+    display:inline-block;
+    margin-top:40px;
+    padding:15px 40px;
+    border:1px solid rgba(212,175,55,.4);
+    border-radius:50px;
+    color:#d4af37;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid rgba(212,175,55,.15);
+}
+
+.footer-copy{color:#999;}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+<h1 class="logo">503</h1>
+
+<div class="subtitle">
+SERVICE UNAVAILABLE
+</div>
+
+<p class="tagline">
+This service is temporarily unavailable due to maintenance
+or high server load.
+</p>
+</section>
+
+<div class="feature">
+
+<h2 id="site-name">Website</h2>
+
+<p>
+The service is temporarily unavailable.
+Please try again in a few minutes.
+</p>
+
+<a href="/" class="home-btn">
+Return to Homepage
+</a>
+
+</div>
+
+<footer>
+<div class="footer-copy">
+Error 503 • Service Temporarily Unavailable
+</div>
+</footer>
+
+<script>
+const domain = window.location.hostname || 'Website';
+document.getElementById('site-name').textContent = domain;
+document.title = '503 - ' + domain;
+</script>
+
+</body>
+</html>
