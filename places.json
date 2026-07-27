@@ -2,7 +2,7 @@
   "source": "Wikidata (CC0)",
   "license": "CC0 1.0",
   "country": "France",
-  "count": 195,
+  "count": 196,
   "places": [
     {
       "id": "Q122784272",
@@ -327,6 +327,18 @@
       "website_valid": true,
       "description": "domaine national de Fontainebleau, France",
       "source": "http://www.wikidata.org/entity/Q201428"
+    },
+    {
+      "id": "Q667763",
+      "name": "château de Quéribus",
+      "type": "UNESCO World Heritage",
+      "city": "",
+      "lat": 42.836666666,
+      "lon": 2.621666666,
+      "website": "",
+      "website_valid": false,
+      "description": "château fort français",
+      "source": "http://www.wikidata.org/entity/Q667763"
     },
     {
       "id": "Q2946",
