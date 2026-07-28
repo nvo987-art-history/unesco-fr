@@ -2,7 +2,7 @@
   "source": "Wikidata (CC0)",
   "license": "CC0 1.0",
   "country": "France",
-  "count": 196,
+  "count": 197,
   "places": [
     {
       "id": "Q122784272",
@@ -1227,6 +1227,18 @@
       "website_valid": false,
       "description": "monument aux morts à Oulchy-le-Château (Aisne)",
       "source": "http://www.wikidata.org/entity/Q3232521"
+    },
+    {
+      "id": "Q3390891",
+      "name": "Les Plages du Débarquement, Normandie, 1944",
+      "type": "UNESCO World Heritage",
+      "city": "",
+      "lat": 49.37085,
+      "lon": -0.87959,
+      "website": "",
+      "website_valid": false,
+      "description": "site de la liste indicative du patrimoine mondial en France",
+      "source": "http://www.wikidata.org/entity/Q3390891"
     },
     {
       "id": "Q677659",
