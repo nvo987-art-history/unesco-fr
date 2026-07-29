@@ -36,7 +36,7 @@
       "lat": 46.56477,
       "lon": 0.86597,
       "website": "http://www.abbaye-saint-savin.fr/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "abbaye située dans la Vienne, en France",
       "source": "http://www.wikidata.org/entity/Q1774129"
     },
@@ -1980,7 +1980,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
