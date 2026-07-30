@@ -348,7 +348,7 @@
       "lat": 48.804722222,
       "lon": 2.120277777,
       "website": "https://www.chateauversailles.fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "château à Versailles, en France",
       "source": "http://www.wikidata.org/entity/Q2946"
     },
@@ -1164,7 +1164,7 @@
       "lat": 48.808055555,
       "lon": 2.108333333,
       "website": "https://www.chateauversailles.fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "jardin situé à l'ouest du château de Versailles",
       "source": "http://www.wikidata.org/entity/Q3162464"
     },
