@@ -60,7 +60,7 @@
       "lat": 45.752777777,
       "lon": 5.839722222,
       "website": "https://hautecombe.chemin-neuf.fr/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "abbaye située en Savoie, en France",
       "source": "http://www.wikidata.org/entity/Q63524"
     },
@@ -192,7 +192,7 @@
       "lat": 48.447777777,
       "lon": 1.487777777,
       "website": "http://www.cathedrale-chartres.org/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "cathédrale située en Eure-et-Loir, en France",
       "source": "http://www.wikidata.org/entity/Q180274"
     },
@@ -1417,7 +1417,7 @@
       "lon": 2.77177,
       "website": "",
       "website_valid": false,
-      "description": "cimetière situé dans le Pas-de-Calais, en France",
+      "description": "mémorial situé à Loos-en-Gohelle dans le Pas-de-Calais, en France",
       "source": "http://www.wikidata.org/entity/Q2478266"
     },
     {
