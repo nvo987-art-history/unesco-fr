@@ -60,7 +60,7 @@
       "lat": 45.752777777,
       "lon": 5.839722222,
       "website": "https://hautecombe.chemin-neuf.fr/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "abbaye située en Savoie, en France",
       "source": "http://www.wikidata.org/entity/Q63524"
     },
@@ -348,7 +348,7 @@
       "lat": 48.804722222,
       "lon": 2.120277777,
       "website": "https://www.chateauversailles.fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "château à Versailles, en France",
       "source": "http://www.wikidata.org/entity/Q2946"
     },
@@ -495,18 +495,6 @@
       "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q2618490"
-    },
-    {
-      "id": "Q2170407",
-      "name": "cimetière de Dud Corner",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 50.460067,
-      "lon": 2.771216,
-      "website": "",
-      "website_valid": false,
-      "description": "cimetière situé dans le Pas-de-Calais, en France",
-      "source": "http://www.wikidata.org/entity/Q2170407"
     },
     {
       "id": "Q2353463",
@@ -1037,6 +1025,18 @@
       "source": "http://www.wikidata.org/entity/Q15726441"
     },
     {
+      "id": "Q2170407",
+      "name": "Dud Corner Cemetery",
+      "type": "UNESCO World Heritage",
+      "city": "",
+      "lat": 50.460067,
+      "lon": 2.771216,
+      "website": "",
+      "website_valid": false,
+      "description": "cimetière situé dans le Pas-de-Calais, en France",
+      "source": "http://www.wikidata.org/entity/Q2170407"
+    },
+    {
       "id": "Q59310530",
       "name": "Ensemble de stèles et d’anciennes tombes individuelles allemandes et françaises du Petit Donon",
       "type": "UNESCO World Heritage",
@@ -1164,7 +1164,7 @@
       "lat": 48.808055555,
       "lon": 2.108333333,
       "website": "https://www.chateauversailles.fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "jardin situé à l'ouest du château de Versailles",
       "source": "http://www.wikidata.org/entity/Q3162464"
     },
