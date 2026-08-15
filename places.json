@@ -60,7 +60,7 @@
       "lat": 45.752777777,
       "lon": 5.839722222,
       "website": "https://hautecombe.chemin-neuf.fr/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "abbaye située en Savoie, en France",
       "source": "http://www.wikidata.org/entity/Q63524"
     },
@@ -192,7 +192,7 @@
       "lat": 48.447777777,
       "lon": 1.487777777,
       "website": "http://www.cathedrale-chartres.org/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "cathédrale située en Eure-et-Loir, en France",
       "source": "http://www.wikidata.org/entity/Q180274"
     },
@@ -996,7 +996,7 @@
       "lat": 49.0775,
       "lon": 3.94611,
       "website": "https://www.champagne-patrimoinemondial.org/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "site du patrimoine mondial de l'UNESCO dans le département de la Marne",
       "source": "http://www.wikidata.org/entity/Q20650698"
     },
@@ -1368,7 +1368,7 @@
       "lat": 47.858820805,
       "lon": 7.150173111,
       "website": "http://www.memorial-hwk.eu/monument-national.php",
-      "website_valid": true,
+      "website_valid": false,
       "description": "mémorial de la Première Guerre mondiale situé dans le Haut-Rhin",
       "source": "http://www.wikidata.org/entity/Q20895234"
     },
@@ -1980,7 +1980,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
