@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>NVO987.eu – Sites UNESCO en France</title>
+    <link>https://unesco-fr.nvo987.eu/</link>
+    <description>Publication culturelle et documentaire en ligne consacrée aux sites du patrimoine mondial de l'UNESCO situés en France.</description>
+    <language>fr-FR</language>
+    <copyright>© 2026 NVO987 – Culture Visuelle Moderne et Contemporaine</copyright>
+    <managingEditor>contact@nvo987.eu (NVO987)</managingEditor>
+    <webMaster>contact@nvo987.eu (NVO987)</webMaster>
+    <lastBuildDate>Sat, 22 Aug 2026 00:00:00 GMT</lastBuildDate>
+
+    <atom:link
+      href="https://unesco-fr.nvo987.eu/rss.xml"
+      rel="self"
+      type="application/rss+xml"/>
+
+    <item>
+      <title>Sites UNESCO en France</title>
+      <link>https://unesco-fr.nvo987.eu/</link>
+      <guid isPermaLink="true">https://unesco-fr.nvo987.eu/</guid>
+      <description>Publication culturelle et documentaire en ligne consacrée aux sites du patrimoine mondial de l'UNESCO situés en France.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
