@@ -1,0 +1,42 @@
+{
+  "openbindings": "0.1.0",
+  "name": "NVO987.eu – Sites UNESCO en France",
+  "version": "1.0.0",
+  "description": "Publication culturelle et documentaire en ligne consacrée aux sites du patrimoine mondial de l'UNESCO situés en France.",
+  "operations": {
+    "searchPlaces": {
+      "description": "Recherche locale dans la base de données des sites UNESCO.",
+      "input": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200
+          }
+        },
+        "required": [
+          "query"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "places": {
+            "type": "array"
+          },
+          "count": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "places",
+          "count"
+        ]
+      }
+    }
+  }
+}
