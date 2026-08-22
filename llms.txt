@@ -1,0 +1,57 @@
+# NVO987.eu – Sites UNESCO en France
+
+> Publication culturelle et documentaire en ligne consacrée aux sites du patrimoine mondial de l'UNESCO situés en France.
+
+## Publisher
+
+NVO987 – Culture Visuelle Moderne et Contemporaine
+
+https://nvo987.fr/
+
+## Main publication
+
+https://unesco-fr.nvo987.eu/
+
+## Description
+
+NVO987.eu is an independent cultural and documentary online publication for
+consulting, searching and filtering information about UNESCO World Heritage
+sites located in France.
+
+The publication is regularly updated.
+
+## Data
+
+The site's structured data are derived from Wikidata.
+
+Wikidata:
+https://www.wikidata.org/
+
+Data licence:
+CC0 1.0 Universal
+
+https://creativecommons.org/publicdomain/zero/1.0/
+
+## Privacy
+
+The site is designed without user accounts, advertising profiling,
+behavioural analytics or unnecessary personal-data collection.
+
+Search is performed locally in the user's browser.
+
+## Legal
+
+The publication is independent and is not affiliated with UNESCO or any
+official UNESCO institution.
+
+Official legal information:
+
+https://nvo987.fr/mentions-legales.html
+
+## Contact
+
+contact@nvo987.eu
+
+## Identity
+
+did:web:identity.nvo987.us
