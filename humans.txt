@@ -1,0 +1,56 @@
+/* TEAM */
+
+Project:
+NVO987.eu – Sites UNESCO en France
+
+Publisher:
+NVO987 – Culture Visuelle Moderne et Contemporaine
+
+Founder / Responsible:
+Nicholas Van-Orton
+
+Website:
+https://unesco-fr.nvo987.eu/
+
+Organization:
+https://nvo987.fr/
+
+Contact:
+contact@nvo987.eu
+
+ORCID:
+https://orcid.org/0009-0007-4628-1871
+
+/* PROJECT */
+
+Type:
+Cultural and documentary online publication
+
+Subject:
+UNESCO World Heritage sites in France
+
+Data source:
+Wikidata
+
+Data licence:
+CC0 1.0 Universal
+
+Code licence:
+MIT
+
+Privacy:
+No user accounts
+No advertising tracking
+No profiling
+No behavioural analytics
+
+Legal:
+https://nvo987.fr/mentions-legales.html
+
+/* SITE */
+
+DID:
+did:web:identity.nvo987.us
+
+Last update:
+2026
