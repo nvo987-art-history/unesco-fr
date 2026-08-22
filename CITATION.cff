@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "NVO987.eu – Sites UNESCO en France"
+message: "If you use this publication or its dataset in your research, please cite it."
+type: dataset
+version: "1.0.0"
+date-released: "2026-08-22"
+repository-code: "https://github.com/nvo987-art-history/unesco-fr"
+url: "https://unesco-fr.nvo987.eu/"
+abstract: >
+  Publication culturelle et documentaire en ligne consacrée aux sites du
+  patrimoine mondial de l'UNESCO situés en France. Les données sont issues
+  de Wikidata et sont présentées dans une interface documentaire avec
+  recherche et filtrage locaux.
+authors:
+  - family-names: "Van-Orton"
+    given-names: "Nicholas"
+    affiliation: "NVO987 – Culture Visuelle Moderne et Contemporaine"
+    orcid: "https://orcid.org/0009-0007-4628-1871"
+    website: "https://nvo987.us"
+contact:
+  - family-names: "Van-Orton"
+    given-names: "Nicholas"
+    email: "contact@nvo987.eu"
+keywords:
+  - UNESCO
+  - France
+  - patrimoine mondial
+  - patrimoine culturel
+  - Wikidata
+  - open data
+  - documentation
+  - cultural heritage
+license: "MIT"
+copyright: "2026 NVO987 – Culture Visuelle Moderne et Contemporaine"
