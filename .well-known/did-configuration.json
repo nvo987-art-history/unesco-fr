@@ -1,0 +1,10 @@
+{
+  "@context": "https://identity.foundation/.well-known/did-configuration/v1",
+  "linked_dids": [
+    {
+      "issuer": "did:web:identity.nvo987.us",
+      "subject": "https:unesco-fr.nvo987.eu",
+      "relationship": "linked-domain"
+    }
+  ]
+}
