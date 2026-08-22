@@ -1,1 +1,23 @@
+# NVO987.eu AI Usage Information
 
+Site: https://unesco-fr.nvo987.eu/
+Publisher: NVO987 – Culture Visuelle Moderne et Contemporaine
+
+This website is a cultural and documentary online publication concerning UNESCO
+World Heritage sites located in France.
+
+Publicly accessible pages may be read and indexed by automated systems,
+subject to applicable law, technical restrictions, robots.txt directives,
+copyright, database rights, and source licences.
+
+The website does not require user accounts and does not intentionally collect
+personal data for AI training or profiling.
+
+Data source:
+Wikidata — CC0 1.0 Universal
+
+Legal information:
+https://nvo987.fr/mentions-legales.html
+
+Contact:
+mailto:contact@nvo987.eu
