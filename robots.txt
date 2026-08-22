@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://unesco-fr.nvo987.eu/sitemap.xml
+Sitemap: https://unesco-fr.nvo987.eu/sitemap-index.xml
