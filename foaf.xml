@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:org="http://www.w3.org/TR/vocab-org/">
+
+  <foaf:Person rdf:about="https://nvo987.us#person">
+    <foaf:name>Nicholas Van-Orton</foaf:name>
+    <foaf:homepage rdf:resource="https://nvo987.us"/>
+    <foaf:mbox rdf:resource="mailto:contact@nvo987.eu"/>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://github.com/"/>
+        <foaf:accountName>nvo987-art-history</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+  </foaf:Person>
+
+  <foaf:Organization rdf:about="https://nvo987.fr/#organization">
+    <foaf:name>NVO987 – Culture Visuelle Moderne et Contemporaine</foaf:name>
+    <foaf:homepage rdf:resource="https://nvo987.fr/"/>
+    <foaf:member rdf:resource="https://nvo987.us#person"/>
+  </foaf:Organization>
+
+  <foaf:Document rdf:about="https://unesco-fr.nvo987.eu/">
+    <foaf:name>NVO987.eu – Sites UNESCO en France</foaf:name>
+    <foaf:homepage rdf:resource="https://unesco-fr.nvo987.eu/"/>
+    <foaf:maker rdf:resource="https://nvo987.fr/#organization"/>
+  </foaf:Document>
+
+</rdf:RDF>
