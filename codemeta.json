@@ -1,0 +1,47 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "NVO987.eu – Sites UNESCO en France",
+  "description": "Publication culturelle et documentaire en ligne consacrée aux sites du patrimoine mondial de l'UNESCO situés en France.",
+  "version": "1.0.0",
+  "dateCreated": "2026-08-22",
+  "dateModified": "2026-08-22",
+  "codeRepository": "https://github.com/nvo987-art-history/unesco-fr",
+  "url": "https://unesco-fr.nvo987.eu/",
+  "programmingLanguage": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "JSON"
+  ],
+  "runtimePlatform": "Web browser",
+  "applicationCategory": "Cultural heritage documentation",
+  "operatingSystem": "Any",
+  "license": "https://opensource.org/licenses/MIT",
+  "author": {
+    "@type": "Person",
+    "givenName": "Nicholas",
+    "familyName": "Van-Orton",
+    "url": "https://nvo987.us",
+    "identifier": "https://orcid.org/0009-0007-4628-1871"
+  },
+  "maintainer": {
+    "@type": "Organization",
+    "name": "NVO987 – Culture Visuelle Moderne et Contemporaine",
+    "url": "https://nvo987.fr/"
+  },
+  "keywords": [
+    "UNESCO",
+    "France",
+    "World Heritage",
+    "cultural heritage",
+    "Wikidata",
+    "open data",
+    "documentation"
+  ],
+  "funding": "Independent cultural project",
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "NVO987.eu – Sites UNESCO en France"
+  }
+}
