@@ -36,7 +36,7 @@
       "lat": 46.56477,
       "lon": 0.86597,
       "website": "http://www.abbaye-saint-savin.fr/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "abbaye située dans la Vienne, en France",
       "source": "http://www.wikidata.org/entity/Q1774129"
     },
