@@ -1512,7 +1512,7 @@
       "lat": 50.379444444,
       "lon": 2.773611111,
       "website": "http://www.veterans.gc.ca/eng/remembrance/memorials/overseas/first-world-war/france/vimy/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "mémorial canadien commémorant la Première Guerre mondiale",
       "source": "http://www.wikidata.org/entity/Q2561040"
     },
