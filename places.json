@@ -2220,7 +2220,7 @@
       "lat": 47.674596574,
       "lon": 9.120991545,
       "website": "http://www.palafittes.org/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "vestiges d'habitations lacustres préhistoriques",
       "source": "http://www.wikidata.org/entity/Q4580"
     },
