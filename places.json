@@ -1512,7 +1512,7 @@
       "lat": 50.379444444,
       "lon": 2.773611111,
       "website": "http://www.veterans.gc.ca/eng/remembrance/memorials/overseas/first-world-war/france/vimy/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "mémorial canadien commémorant la Première Guerre mondiale",
       "source": "http://www.wikidata.org/entity/Q2561040"
     },
@@ -2220,7 +2220,7 @@
       "lat": 47.674596574,
       "lon": 9.120991545,
       "website": "http://www.palafittes.org/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "vestiges d'habitations lacustres préhistoriques",
       "source": "http://www.wikidata.org/entity/Q4580"
     },
