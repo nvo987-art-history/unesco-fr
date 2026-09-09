@@ -1,0 +1,1670 @@
+<!-- ==========================================================
+     FILE: index.html
+     NVO987.eu – Sites UNESCO en France
+     Static / GitHub Pages compatible / Privacy-friendly
+     Data loaded locally from places.json (generated from Wikidata)
+
+     LEGAL / COMPLIANCE SUMMARY (IMPORTANT):
+     - Data source: Wikidata (CC0 1.0 Universal - Public Domain Dedication)
+     - No cookies, no analytics, no tracking, no profiling
+     - No user accounts, no user database, no marketing pixels
+     - Local client-side search only (no server queries from the website)
+     - Hosted on GitHub Pages (third-party infrastructure logs may exist)
+     - Independent informational produced work / no affiliation
+========================================================== -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <!-- BASIC -->
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sites UNESCO en France | NVO987 - Culture Visuelle Moderne et Contemporaine</title>
+
+  <meta name="description" content="NVO987 is a multidisciplinary artistic and cultural initiative exploring the intersections of visual culture and art history. Sites UNESCO en France basés sur Wikidata (CC0). Recherche locale instantanée. Aucun cookie, aucun tracking, aucune collecte de données personnelles.">
+
+  <meta name="keywords" content="UNESCO, patrimoine mondial, France, sites UNESCO, patrimoine culturel, open data, Wikidata, NVO987">
+
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+  <meta name="color-scheme" content="light">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+
+  <!-- DID document -->
+  <link rel="alternate" type="application/did+json" href="https://identity.nvo987.us/.well-known/did.json">
+
+  <!-- DID domain linkage proof -->
+  <link rel="alternate" type="application/did+ld+json" href="https://identity.nvo987.us/.well-known/did-configuration.json">
+
+  <!-- Canonical DID -->
+  <meta name="did" content="did:web:identity.nvo987.us">
+
+  <!-- Identity authority -->
+  <link rel="me" href="https://identity.nvo987.us">
+
+  <!-- Machine endpoints -->
+  <link rel="alternate" type="application/ld+json" href="https://identity.nvo987.us/machine/graph.jsonld">
+  <link rel="alternate" type="application/ld+json" href="https://identity.nvo987.us/machine/agents.jsonld">
+  <link rel="alternate" type="application/ld+json" href="https://identity.nvo987.us/machine/vc.jsonld">
+
+  <!-- SECURITY -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none';">
+
+  <!-- CANONICAL -->
+  <link rel="canonical" href="https://unesco-fr.nvo987.eu/">
+
+  <!-- =========================================================
+       PREMIUM INLINE CSS
+       ========================================================= -->
+  <style>
+    /* ---------------------------------------------------------
+       DESIGN SYSTEM
+       --------------------------------------------------------- */
+    :root {
+      --ink: #171918;
+      --ink-soft: #454944;
+      --ink-muted: #747873;
+
+      --paper: #f4f1e9;
+      --paper-light: #faf8f3;
+      --paper-deep: #e9e5da;
+
+      --surface: rgba(255, 253, 248, 0.82);
+      --surface-solid: #fffdf8;
+
+      --line: rgba(23, 25, 24, 0.12);
+      --line-strong: rgba(23, 25, 24, 0.2);
+
+      --accent: #a88450;
+      --accent-dark: #806235;
+      --accent-soft: rgba(168, 132, 80, 0.12);
+
+      --success: #536c5b;
+      --success-bg: rgba(83, 108, 91, 0.1);
+
+      --warning: #987b45;
+      --warning-bg: rgba(152, 123, 69, 0.1);
+
+      --danger: #8a5149;
+      --danger-bg: rgba(138, 81, 73, 0.1);
+
+      --serif: "Playfair Display", "Times New Roman", serif;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+      --container: 1240px;
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 26px;
+
+      --shadow-sm:
+        0 1px 1px rgba(15, 18, 16, 0.03),
+        0 8px 30px rgba(15, 18, 16, 0.05);
+
+      --shadow-md:
+        0 18px 60px rgba(15, 18, 16, 0.08),
+        0 2px 8px rgba(15, 18, 16, 0.04);
+
+      --ease: cubic-bezier(.2, .75, .25, 1);
+    }
+
+    /* ---------------------------------------------------------
+       FONT IMPORT
+       --------------------------------------------------------- */
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap");
+
+    /* ---------------------------------------------------------
+       RESET / BASE
+       --------------------------------------------------------- */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 96px;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(
+          circle at 80% 0%,
+          rgba(168, 132, 80, 0.07),
+          transparent 30rem
+        ),
+        linear-gradient(
+          180deg,
+          var(--paper-light) 0%,
+          var(--paper) 48%,
+          #f0ede5 100%
+        );
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    ::selection {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    strong {
+      font-weight: 650;
+      color: var(--ink);
+    }
+
+    /* ---------------------------------------------------------
+       LAYOUT
+       --------------------------------------------------------- */
+    .container {
+      width: min(
+        calc(100% - 48px),
+        var(--container)
+      );
+      margin-inline: auto;
+    }
+
+    /* ---------------------------------------------------------
+       TOPBAR
+       --------------------------------------------------------- */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      background: rgba(23, 25, 24, 0.96);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .topbar-inner {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+      min-width: 0;
+    }
+
+    .brand-name {
+      color: #faf8f2;
+      font-family: var(--serif);
+      font-size: 1.32rem;
+      font-weight: 600;
+      letter-spacing: -.02em;
+      white-space: nowrap;
+    }
+
+    .brand-tag {
+      color: rgba(250,248,242,.55);
+      font-size: .67rem;
+      font-weight: 600;
+      letter-spacing: .18em;
+      line-height: 1;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .nav a {
+      position: relative;
+      padding: 10px 14px;
+      color: rgba(250,248,242,.68);
+      font-size: .76rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition:
+        color .25s var(--ease),
+        background .25s var(--ease);
+    }
+
+    .nav a::after {
+      content: "";
+      position: absolute;
+      left: 14px;
+      right: 14px;
+      bottom: 3px;
+      height: 1px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform .35s var(--ease);
+    }
+
+    .nav a:hover,
+    .nav a:focus-visible {
+      color: #fff;
+    }
+
+    .nav a:hover::after,
+    .nav a:focus-visible::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    /* ---------------------------------------------------------
+       HERO
+       --------------------------------------------------------- */
+    .hero {
+      position: relative;
+      min-height: 510px;
+      display: flex;
+      align-items: flex-end;
+      margin-top: 32px;
+      margin-bottom: 90px;
+      padding: clamp(44px, 8vw, 100px);
+      overflow: hidden;
+      border: 1px solid rgba(23,25,24,.1);
+      border-radius: var(--radius-lg);
+      background:
+        linear-gradient(
+          115deg,
+          rgba(23,25,24,.98) 0%,
+          rgba(29,32,30,.96) 48%,
+          rgba(45,43,37,.94) 100%
+        );
+      box-shadow: var(--shadow-md);
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background:
+        radial-gradient(
+          circle at 82% 30%,
+          rgba(198,163,103,.22),
+          transparent 18rem
+        ),
+        radial-gradient(
+          circle at 100% 100%,
+          rgba(255,255,255,.06),
+          transparent 25rem
+        );
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      right: 8%;
+      top: 50%;
+      z-index: -1;
+      border: 1px solid rgba(203,172,116,.24);
+      border-radius: 50%;
+      transform: translateY(-50%);
+      box-shadow:
+        0 0 0 55px rgba(203,172,116,.035),
+        0 0 0 110px rgba(203,172,116,.018);
+    }
+
+    .hero-text {
+      max-width: 790px;
+    }
+
+    .hero h1 {
+      max-width: 850px;
+      margin: 0;
+      color: #faf8f2;
+      font-family: var(--serif);
+      font-size: clamp(3.25rem, 7vw, 6.6rem);
+      font-weight: 500;
+      letter-spacing: -.055em;
+      line-height: .96;
+    }
+
+    .hero-sub {
+      margin: 30px 0 0;
+      color: #c9ad7b;
+      font-size: clamp(.78rem, 1vw, .94rem);
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .hero-note {
+      max-width: 700px;
+      margin: 22px 0 0;
+      color: rgba(250,248,242,.62);
+      font-size: .88rem;
+      line-height: 1.8;
+    }
+
+    /* ---------------------------------------------------------
+       MAIN
+       --------------------------------------------------------- */
+    .main {
+      position: relative;
+    }
+
+    .section {
+      padding: 0 0 115px;
+      scroll-margin-top: 100px;
+    }
+
+    .section-header {
+      display: grid;
+      grid-template-columns: minmax(250px, .7fr) minmax(0, 1.3fr);
+      gap: 70px;
+      align-items: start;
+      margin-bottom: 42px;
+    }
+
+    .section-header h2 {
+      position: relative;
+      margin: 0;
+      padding-top: 18px;
+      font-family: var(--serif);
+      font-size: clamp(2.3rem, 4vw, 4rem);
+      font-weight: 500;
+      letter-spacing: -.045em;
+      line-height: 1.05;
+    }
+
+    .section-header h2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 44px;
+      height: 2px;
+      background: var(--accent);
+    }
+
+    .section-header p {
+      max-width: 760px;
+      margin: 0;
+      color: var(--ink-soft);
+      font-size: .95rem;
+    }
+
+    /* ---------------------------------------------------------
+       CONTROLS
+       --------------------------------------------------------- */
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 210px;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .controls input,
+    .controls select {
+      min-height: 62px;
+      border: 1px solid var(--line-strong);
+      border-radius: 12px;
+      outline: none;
+      background: rgba(255,253,248,.72);
+      color: var(--ink);
+      box-shadow: 0 4px 18px rgba(20,22,20,.025);
+      transition:
+        border-color .25s var(--ease),
+        box-shadow .25s var(--ease),
+        background .25s var(--ease);
+    }
+
+    .controls input {
+      width: 100%;
+      padding: 0 22px;
+    }
+
+    .controls select {
+      width: 100%;
+      padding: 0 18px;
+      cursor: pointer;
+    }
+
+    .controls input::placeholder {
+      color: #94978f;
+    }
+
+    .controls input:focus,
+    .controls select:focus {
+      border-color: rgba(168,132,80,.75);
+      background: #fffdf8;
+      box-shadow:
+        0 0 0 4px rgba(168,132,80,.1),
+        0 10px 30px rgba(20,22,20,.05);
+    }
+
+    /* ---------------------------------------------------------
+       STATUS
+       --------------------------------------------------------- */
+    .status {
+      min-height: 50px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 26px;
+      padding: 12px 17px;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      font-size: .78rem;
+      font-weight: 650;
+      letter-spacing: .03em;
+    }
+
+    .status.info {
+      border-color: rgba(23,25,24,.1);
+      background: rgba(23,25,24,.035);
+      color: var(--ink-soft);
+    }
+
+    .status.success {
+      border-color: rgba(83,108,91,.16);
+      background: var(--success-bg);
+      color: var(--success);
+    }
+
+    .status.warn {
+      border-color: rgba(152,123,69,.18);
+      background: var(--warning-bg);
+      color: var(--warning);
+    }
+
+    .status.error {
+      border-color: rgba(138,81,73,.18);
+      background: var(--danger-bg);
+      color: var(--danger);
+    }
+
+    /* ---------------------------------------------------------
+       PLACES GRID
+       --------------------------------------------------------- */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .place-card {
+      position: relative;
+      display: flex;
+      min-height: 310px;
+      flex-direction: column;
+      padding: 28px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background:
+        linear-gradient(
+          145deg,
+          rgba(255,253,248,.9),
+          rgba(249,246,238,.74)
+        );
+      box-shadow: var(--shadow-sm);
+      transition:
+        transform .4s var(--ease),
+        border-color .4s var(--ease),
+        box-shadow .4s var(--ease);
+    }
+
+    .place-card::before {
+      content: "";
+      position: absolute;
+      width: 130px;
+      height: 130px;
+      right: -75px;
+      top: -75px;
+      border: 1px solid rgba(168,132,80,.17);
+      border-radius: 50%;
+      transition: transform .55s var(--ease);
+    }
+
+    .place-card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        var(--accent),
+        transparent
+      );
+      opacity: 0;
+      transition: opacity .35s var(--ease);
+    }
+
+    .place-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(168,132,80,.3);
+      box-shadow:
+        0 24px 55px rgba(20,22,20,.1),
+        0 2px 8px rgba(20,22,20,.04);
+    }
+
+    .place-card:hover::before {
+      transform: scale(1.45);
+    }
+
+    .place-card:hover::after {
+      opacity: 1;
+    }
+
+    .place-card h3 {
+      position: relative;
+      z-index: 1;
+      margin: 0 0 12px;
+      padding-right: 25px;
+      font-family: var(--serif);
+      font-size: 1.45rem;
+      font-weight: 600;
+      letter-spacing: -.025em;
+      line-height: 1.2;
+    }
+
+    .place-meta {
+      margin-bottom: 20px;
+      color: var(--accent-dark);
+      font-size: .67rem;
+      font-weight: 700;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .place-desc {
+      flex: 1;
+      color: var(--ink-soft);
+      font-size: .86rem;
+      line-height: 1.75;
+    }
+
+    .place-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 25px;
+      padding-top: 19px;
+      border-top: 1px solid var(--line);
+    }
+
+    /* ---------------------------------------------------------
+       BUTTONS
+       --------------------------------------------------------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40px;
+      padding: 8px 15px;
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+      background: var(--ink);
+      color: #fff;
+      font-size: .67rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition:
+        transform .25s var(--ease),
+        background .25s var(--ease),
+        color .25s var(--ease),
+        border-color .25s var(--ease);
+    }
+
+    .btn:hover,
+    .btn:focus-visible {
+      transform: translateY(-2px);
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .btn.secondary {
+      background: transparent;
+      color: var(--ink);
+      border-color: var(--line-strong);
+    }
+
+    .btn.secondary:hover,
+    .btn.secondary:focus-visible {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: #fff;
+    }
+
+    /* ---------------------------------------------------------
+       LEGAL / SOURCE CARDS
+       --------------------------------------------------------- */
+    .legal-card,
+    .sources-card {
+      position: relative;
+      padding: clamp(28px, 5vw, 58px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: rgba(255,253,248,.68);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .legal-card::before,
+    .sources-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      border-radius: 20px 20px 0 0;
+      background: linear-gradient(
+        90deg,
+        var(--accent),
+        rgba(168,132,80,.1)
+      );
+    }
+
+    .legal-card h3,
+    .sources-card h3 {
+      margin: 34px 0 11px;
+      font-family: var(--serif);
+      font-size: 1.42rem;
+      font-weight: 600;
+      letter-spacing: -.02em;
+      line-height: 1.25;
+    }
+
+    .legal-card h3:first-child,
+    .sources-card h3:first-child {
+      margin-top: 0;
+    }
+
+    .legal-card p,
+    .sources-card p {
+      max-width: 880px;
+      margin: 0 0 17px;
+      color: var(--ink-soft);
+      font-size: .9rem;
+    }
+
+    .legal-card ul,
+    .sources-card ul {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px 35px;
+      margin: 22px 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .legal-card li,
+    .sources-card li {
+      position: relative;
+      padding: 9px 0 9px 22px;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink-soft);
+      font-size: .86rem;
+    }
+
+    .legal-card li::before,
+    .sources-card li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .legal-card a,
+    .sources-card a,
+    .footer a {
+      color: var(--accent-dark);
+      font-weight: 600;
+      text-decoration-color: rgba(128,98,53,.35);
+      text-underline-offset: 4px;
+      transition:
+        color .25s ease,
+        text-decoration-color .25s ease;
+    }
+
+    .legal-card a:hover,
+    .sources-card a:hover,
+    .footer a:hover {
+      color: var(--accent);
+      text-decoration-color: var(--accent);
+    }
+
+    .small-note {
+      color: var(--ink-muted) !important;
+      font-size: .75rem !important;
+      letter-spacing: .01em;
+    }
+
+    .muted {
+      color: var(--ink-muted) !important;
+    }
+
+    /* ---------------------------------------------------------
+       FOOTER
+       --------------------------------------------------------- */
+    .footer {
+      position: relative;
+      margin-top: 20px;
+      padding: 75px 0 48px;
+      overflow: hidden;
+      background: #181a19;
+      color: rgba(250,248,242,.72);
+    }
+
+    .footer::before {
+      content: "";
+      position: absolute;
+      width: 520px;
+      height: 520px;
+      right: -230px;
+      top: -320px;
+      border: 1px solid rgba(194,158,99,.17);
+      border-radius: 50%;
+      box-shadow:
+        0 0 0 80px rgba(194,158,99,.025),
+        0 0 0 160px rgba(194,158,99,.015);
+    }
+
+    .footer-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 80px;
+      row-gap: 15px;
+    }
+
+    .footer p {
+      margin: 0;
+      font-size: .76rem;
+      line-height: 1.7;
+    }
+
+    .footer p:first-child {
+      color: #faf8f2;
+      font-family: var(--serif);
+      font-size: 1.15rem;
+    }
+
+    .footer p:nth-child(2) {
+      color: #c6a56d;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .footer .muted,
+    .footer .small-note {
+      color: rgba(250,248,242,.45) !important;
+    }
+
+    .footer a {
+      color: #c6a56d;
+    }
+
+    .footer p:nth-child(3) {
+      grid-column: 1 / -1;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,.09);
+    }
+
+    .footer p:nth-child(6) {
+      grid-column: 1 / -1;
+      max-width: 900px;
+      margin-top: 18px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255,255,255,.07);
+    }
+
+    /* ---------------------------------------------------------
+       ACCESSIBILITY
+       --------------------------------------------------------- */
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 4px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+      }
+    }
+
+    /* ---------------------------------------------------------
+       TABLET
+       --------------------------------------------------------- */
+    @media (max-width: 980px) {
+      .container {
+        width: min(
+          calc(100% - 36px),
+          var(--container)
+        );
+      }
+
+      .hero {
+        min-height: 470px;
+        padding: 58px;
+      }
+
+      .hero::after {
+        right: -90px;
+        opacity: .6;
+      }
+
+      .section-header {
+        grid-template-columns: 1fr;
+        gap: 25px;
+      }
+
+      .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .legal-card ul,
+      .sources-card ul {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ---------------------------------------------------------
+       MOBILE
+       --------------------------------------------------------- */
+    @media (max-width: 680px) {
+      .container {
+        width: min(
+          calc(100% - 28px),
+          var(--container)
+        );
+      }
+
+      .topbar-inner {
+        min-height: auto;
+        padding: 15px 0;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 13px;
+      }
+
+      .brand {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .brand-name {
+        font-size: 1.2rem;
+      }
+
+      .brand-tag {
+        font-size: .58rem;
+      }
+
+      .nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3px;
+      }
+
+      .nav a {
+        padding: 7px 3px 9px;
+        font-size: .57rem;
+        letter-spacing: .07em;
+        text-align: center;
+      }
+
+      .nav a::after {
+        left: 4px;
+        right: 4px;
+      }
+
+      .hero {
+        min-height: 530px;
+        align-items: flex-end;
+        margin-top: 14px;
+        margin-bottom: 70px;
+        padding: 34px 25px;
+        border-radius: 20px;
+      }
+
+      .hero h1 {
+        font-size: clamp(3rem, 15vw, 4.6rem);
+        letter-spacing: -.06em;
+      }
+
+      .hero-sub {
+        margin-top: 24px;
+        font-size: .66rem;
+        line-height: 1.7;
+      }
+
+      .hero-note {
+        font-size: .77rem;
+        line-height: 1.75;
+      }
+
+      .hero::after {
+        width: 260px;
+        height: 260px;
+        right: -145px;
+        top: 22%;
+      }
+
+      .section {
+        padding-bottom: 80px;
+      }
+
+      .section-header {
+        margin-bottom: 30px;
+      }
+
+      .section-header h2 {
+        font-size: 2.55rem;
+      }
+
+      .section-header p {
+        font-size: .85rem;
+      }
+
+      .controls {
+        grid-template-columns: 1fr;
+      }
+
+      .controls input,
+      .controls select {
+        min-height: 56px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .place-card {
+        min-height: 280px;
+        padding: 25px;
+      }
+
+      .place-card h3 {
+        font-size: 1.35rem;
+      }
+
+      .legal-card,
+      .sources-card {
+        padding: 27px 23px;
+        border-radius: 19px;
+      }
+
+      .legal-card h3,
+      .sources-card h3 {
+        font-size: 1.25rem;
+      }
+
+      .legal-card p,
+      .sources-card p {
+        font-size: .84rem;
+      }
+
+      .footer {
+        padding: 55px 0 35px;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 13px;
+      }
+
+      .footer p:nth-child(3),
+      .footer p:nth-child(6) {
+        grid-column: auto;
+      }
+
+      .footer p:nth-child(3) {
+        margin-top: 14px;
+      }
+    }
+
+    /* ---------------------------------------------------------
+       VERY SMALL SCREENS
+       --------------------------------------------------------- */
+    @media (max-width: 390px) {
+      .brand-tag {
+        display: none;
+      }
+
+      .nav a {
+        font-size: .52rem;
+      }
+
+      .hero {
+        min-height: 500px;
+        padding: 29px 21px;
+      }
+
+      .hero h1 {
+        font-size: 2.85rem;
+      }
+
+      .hero-sub {
+        font-size: .6rem;
+      }
+    }
+
+    /* ---------------------------------------------------------
+       PRINT
+       --------------------------------------------------------- */
+    @media print {
+      .topbar {
+        position: static;
+      }
+
+      .nav,
+      .controls,
+      .status {
+        display: none;
+      }
+
+      .hero {
+        min-height: auto;
+        color: #000;
+        background: none;
+        box-shadow: none;
+        border: 1px solid #ccc;
+      }
+
+      .hero h1,
+      .hero-note {
+        color: #000;
+      }
+
+      .hero-sub {
+        color: #555;
+      }
+
+      .footer {
+        color: #000;
+        background: none;
+        border-top: 1px solid #ccc;
+      }
+
+      .footer::before {
+        display: none;
+      }
+
+      .place-card,
+      .legal-card,
+      .sources-card {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+    }
+  </style>
+
+  <!-- SOCIAL PREVIEW -->
+  <meta property="og:site_name" content="NVO987.eu">
+  <meta property="og:title" content="Sites UNESCO en France – Patrimoine mondial">
+  <meta property="og:description" content="Sites UNESCO en France. Données Wikidata (CC0). Aucun cookie, aucun tracking.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://unesco-fr.nvo987.eu/">
+  <meta property="og:image" content="https://unesco-fr.nvo987.eu/banner.jpg">
+  <meta property="og:locale" content="fr_FR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sites UNESCO en France">
+  <meta name="twitter:description" content="Patrimoine mondial UNESCO en France. Open Data Wikidata (CC0).">
+  <meta name="twitter:image" content="https://unesco-fr.nvo987.eu/banner.jpg">
+  <meta name="twitter:dnt" content="on">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#181a19">
+
+</head>
+
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+
+        <div class="brand">
+          <span class="brand-name">NVO987.eu</span>
+          <span class="brand-tag">Patrimoine UNESCO</span>
+        </div>
+
+        <nav class="nav" aria-label="Navigation principale">
+          <a href="#places">Sites</a>
+          <a href="#mentions">Mentions</a>
+          <a href="#sources">Sources</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="container">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Sites UNESCO en France</h1>
+
+        <p class="hero-sub">
+          Patrimoine mondial • Sites culturels • Open Data
+        </p>
+
+        <p class="hero-note">
+          Publication culturelle et documentaire en ligne • Base Open Data locale
+          (Wikidata CC0) • Aucun cookie • Aucun tracking • Aucune collecte
+        </p>
+      </div>
+    </header>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="container">
+
+      <!-- PLACES -->
+      <section id="places" class="section">
+
+        <div class="section-header">
+          <h2>Sites UNESCO</h2>
+
+          <p>
+            Cette publication culturelle et documentaire en ligne permet la consultation,
+            la recherche et le filtrage de sites classés au patrimoine mondial de l’UNESCO
+            situés en <strong>France</strong>.
+            Les informations sont issues d’une base locale téléchargée depuis <strong>Wikidata</strong>.
+            Aucun traitement serveur, aucune analyse comportementale, aucune publicité.
+          </p>
+        </div>
+
+        <div class="controls">
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Rechercher un site UNESCO..."
+            autocomplete="off"
+            inputmode="search"
+            aria-label="Rechercher un site UNESCO">
+
+          <select id="limitSelect" aria-label="Nombre de résultats">
+            <option value="20" selected>20 résultats</option>
+            <option value="40">40 résultats</option>
+            <option value="80">80 résultats</option>
+            <option value="120">120 résultats</option>
+            <option value="200">200 résultats</option>
+          </select>
+
+        </div>
+
+        <div id="statusBox" class="status info">
+          Chargement des sites…
+        </div>
+
+        <div id="placesGrid" class="grid"></div>
+
+      </section>
+
+      <!-- MENTIONS -->
+      <section id="mentions" class="section">
+
+        <div class="section-header">
+          <h2>Mentions légales / conformité</h2>
+          <p>
+            Transparence, confidentialité, Open Data, non-affiliation et limitation de responsabilité.
+          </p>
+        </div>
+
+        <div class="legal-card">
+
+          <h3>1. Éditeur du site</h3>
+
+          <p>
+            Le présent site web <strong>unesco-fr.nvo987.eu</strong> constitue une publication
+            culturelle et documentaire en ligne éditée par l’association
+            <strong>NVO987 – Culture Visuelle Moderne et Contemporaine</strong>.
+          </p>
+
+          <p>
+            Les mentions légales complètes et officielles sont accessibles ici :
+            <a href="https://nvo987.fr/mentions-legales.html"
+               target="_blank"
+               rel="noopener noreferrer">
+              Mentions légales
+            </a>.
+          </p>
+
+          <h3>2. Nature du service</h3>
+
+          <p>
+            Ce site est une <strong>publication culturelle et documentaire en ligne</strong>,
+            sous la forme d’une ressource documentaire consultable et régulièrement actualisée,
+            permettant la consultation, la recherche et le filtrage de sites classés au patrimoine
+            mondial de l’UNESCO situés en <strong>France</strong>.
+          </p>
+
+          <p>
+            La publication est éditée par
+            <strong>NVO987 – Culture Visuelle Moderne et Contemporaine</strong>,
+            à Paris, France.
+          </p>
+
+          <p class="small-note">
+            Il s’agit d’un service d’information à but culturel et éducatif.
+          </p>
+
+          <h3>3. Non-affiliation / absence de représentation</h3>
+
+          <p>
+            <strong>Ce site n’est affilié ni à l’UNESCO ni à aucune institution officielle.</strong>
+          </p>
+
+          <p>
+            Les noms, marques et dénominations cités restent la propriété de leurs détenteurs respectifs.
+          </p>
+
+          <h3>4. Données personnelles / RGPD</h3>
+
+          <p>
+            Ce site applique une approche stricte <strong>privacy by design</strong>.
+          </p>
+
+          <ul>
+            <li>Aucun compte utilisateur</li>
+            <li>Aucune collecte de données personnelles</li>
+            <li>Aucun tracking</li>
+            <li>Aucun profilage publicitaire</li>
+            <li>Aucune analyse comportementale</li>
+          </ul>
+
+          <h3>5. Cookies / tracking</h3>
+
+          <p>
+            Aucun cookie publicitaire ni outil d’analyse n’est utilisé.
+          </p>
+
+          <h3>6. Exactitude / absence de garantie</h3>
+
+          <p>
+            Les informations proviennent de Wikidata et peuvent être inexactes ou incomplètes.
+          </p>
+
+          <h3>7. Signalement / retrait</h3>
+
+          <p>
+            Contact :
+            <a href="mailto:contact@nvo987.eu">contact@nvo987.eu</a>
+          </p>
+
+          <p class="small-note">
+            Mise à jour : chaque semaine.
+          </p>
+
+        </div>
+
+      </section>
+
+      <!-- SOURCES -->
+      <section id="sources" class="section">
+
+        <div class="section-header">
+          <h2>Sources & licences</h2>
+          <p>
+            Déclaration de réutilisation Open Data, transparence et licence libre.
+          </p>
+        </div>
+
+        <div class="sources-card">
+
+          <h3>Source des données</h3>
+
+          <p>
+            Les informations affichées sur ce site proviennent de la base publique
+            <strong>Wikidata</strong>.
+          </p>
+
+          <ul>
+
+            <li>
+              <strong>Plateforme officielle :</strong>
+              <a href="https://www.wikidata.org/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Wikidata.org
+              </a>
+            </li>
+
+            <li>
+              <strong>Licence :</strong>
+              <a href="https://creativecommons.org/publicdomain/zero/1.0/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                CC0 1.0 Universal
+              </a>
+            </li>
+
+            <li>
+              <strong>Accès technique :</strong>
+              <a href="https://query.wikidata.org/"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                Wikidata Query Service
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Contact officiel et identité DID.</p>
+        </div>
+
+        <div class="sources-card">
+
+          <p>
+            Email officiel :
+            <a href="mailto:contact@nvo987.eu">contact@nvo987.eu</a>
+          </p>
+
+          <p>
+            Identité DID :
+            <a href="https://identity.nvo987.us"
+               target="_blank"
+               rel="noopener noreferrer">
+              did:web:identity.nvo987.us
+            </a>
+          </p>
+
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+
+      <p>
+        © 2026 NVO987 – Culture Visuelle Moderne et Contemporaine
+      </p>
+
+      <p>
+        <strong>Sites UNESCO en France</strong>
+      </p>
+
+      <p class="muted">
+        Publication culturelle et documentaire en ligne • Aucun cookie • Aucun suivi • Aucune collecte
+      </p>
+
+      <p>
+        Éditeur :
+        <strong>NVO987 – Culture Visuelle Moderne et Contemporaine</strong>
+      </p>
+
+      <p>
+        Mentions légales :
+        <a href="https://nvo987.fr/mentions-legales.html"
+           target="_blank"
+           rel="noopener noreferrer">
+          https://nvo987.fr/mentions-legales.html
+        </a>
+      </p>
+
+      <p>
+        ISSN
+      </p>
+
+      <p class="small-note">
+        Données : Wikidata (CC0 1.0) • Source publique ouverte • Publication indépendante •
+        Non affiliée à l’UNESCO
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    const statusBox = document.getElementById("statusBox");
+    const placesGrid = document.getElementById("placesGrid");
+    const searchInput = document.getElementById("searchInput");
+    const limitSelect = document.getElementById("limitSelect");
+
+    let allPlaces = [];
+
+    function escapeHTML(str) {
+      if (!str) return "";
+
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function normalize(str) {
+      return (str || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function buildCard(place) {
+
+      const name = escapeHTML(place.name || "Site UNESCO");
+      const city = escapeHTML(place.city || "");
+      const website = escapeHTML(place.website || "");
+      const wikidata = escapeHTML(place.source || "");
+      const descriptionRaw = place.description || "";
+
+      let description = escapeHTML(descriptionRaw);
+
+      if (description.length > 220) {
+        description = description.slice(0, 220) + "...";
+      }
+
+      const card = document.createElement("article");
+      card.className = "place-card";
+
+      card.innerHTML = `
+        <h3>${name}</h3>
+
+        <div class="place-meta">
+          ${
+            city
+              ? `<span>${city}</span>`
+              : `<span class="muted">Ville inconnue</span>`
+          }
+        </div>
+
+        <div class="place-desc">
+          ${
+            description
+              ? description
+              : `<span class="muted">Aucune description disponible.</span>`
+          }
+        </div>
+
+        <div class="place-actions">
+
+          ${
+            website
+              ? `<a class="btn"
+                    href="${website}"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow">
+                    Site officiel
+                 </a>`
+              : ""
+          }
+
+          ${
+            wikidata
+              ? `<a class="btn secondary"
+                    href="${wikidata}"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow">
+                    Wikidata
+                 </a>`
+              : ""
+          }
+
+        </div>
+      `;
+
+      return card;
+    }
+
+    function renderPlaces() {
+
+      const query = normalize(searchInput.value.trim());
+      const limit = parseInt(limitSelect.value, 10);
+
+      placesGrid.innerHTML = "";
+
+      let filtered = allPlaces;
+
+      if (query.length > 0) {
+        filtered = filtered.filter(place => {
+          const blob = normalize(JSON.stringify(place));
+          return blob.includes(query);
+        });
+      }
+
+      filtered = filtered.slice(0, limit);
+
+      if (filtered.length === 0) {
+        statusBox.className = "status warn";
+        statusBox.textContent = "Aucun site trouvé.";
+        return;
+      }
+
+      statusBox.className = "status success";
+      statusBox.textContent =
+        filtered.length + " résultat(s) affiché(s)";
+
+      filtered.forEach(place => {
+        placesGrid.appendChild(buildCard(place));
+      });
+    }
+
+    async function loadPlaces() {
+
+      try {
+
+        statusBox.className = "status info";
+        statusBox.textContent = "Chargement des sites…";
+
+        const response = await fetch(
+          "places.json?v=" + Date.now(),
+          {
+            cache: "no-store"
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status);
+        }
+
+        const data = await response.json();
+
+        if (!data.places || !Array.isArray(data.places)) {
+          throw new Error("Invalid JSON structure");
+        }
+
+        allPlaces = data.places;
+
+        statusBox.className = "status success";
+        statusBox.textContent =
+          allPlaces.length + " site(s) chargé(s)";
+
+        renderPlaces();
+
+      } catch (error) {
+
+        console.error(error);
+
+        statusBox.className = "status error";
+        statusBox.textContent =
+          "Erreur lors du chargement des données.";
+
+      }
+    }
+
+    searchInput.addEventListener("input", renderPlaces);
+    limitSelect.addEventListener("change", renderPlaces);
+
+    loadPlaces();
+  </script>
+
+</body>
+  </html>
