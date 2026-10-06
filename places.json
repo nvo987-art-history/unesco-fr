@@ -2,7 +2,7 @@
   "source": "Wikidata (CC0)",
   "license": "CC0 1.0",
   "country": "France",
-  "count": 197,
+  "count": 196,
   "places": [
     {
       "id": "Q122784272",
@@ -2199,18 +2199,6 @@
       "website_valid": false,
       "description": "réserve naturelle nationale de France",
       "source": "http://www.wikidata.org/entity/Q3457508"
-    },
-    {
-      "id": "Q738657",
-      "name": "Saint-Savin",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 46.566111111,
-      "lon": 0.863611111,
-      "website": "http://www.saintsavin.fr",
-      "website_valid": false,
-      "description": "commune française du département de la Vienne",
-      "source": "http://www.wikidata.org/entity/Q738657"
     },
     {
       "id": "Q4580",
