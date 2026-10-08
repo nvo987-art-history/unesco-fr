@@ -401,18 +401,6 @@
       "source": "http://www.wikidata.org/entity/Q5567396"
     },
     {
-      "id": "Q2482169",
-      "name": "cimetière britannique de La Targette",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 50.350612,
-      "lon": 2.74881,
-      "website": "",
-      "website_valid": false,
-      "description": "cimetière situé dans le Pas-de-Calais, en France",
-      "source": "http://www.wikidata.org/entity/Q2482169"
-    },
-    {
       "id": "Q4991584",
       "name": "cimetière britannique de Pozières",
       "type": "UNESCO World Heritage",
@@ -423,18 +411,6 @@
       "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q4991584"
-    },
-    {
-      "id": "Q2331354",
-      "name": "cimetière canadien de Givenchy Road",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 50.37583,
-      "lon": 2.76472,
-      "website": "",
-      "website_valid": false,
-      "description": "cimetière situé dans le Pas-de-Calais, en France",
-      "source": "http://www.wikidata.org/entity/Q2331354"
     },
     {
       "id": "Q1874283",
@@ -1097,6 +1073,18 @@
       "source": "http://www.wikidata.org/entity/Q1469828"
     },
     {
+      "id": "Q2331354",
+      "name": "Givenchy Road Canadian Cemetery",
+      "type": "UNESCO World Heritage",
+      "city": "",
+      "lat": 50.37583,
+      "lon": 2.76472,
+      "website": "",
+      "website_valid": false,
+      "description": "cimetière situé dans le Pas-de-Calais, en France",
+      "source": "http://www.wikidata.org/entity/Q2331354"
+    },
+    {
       "id": "Q15728421",
       "name": "Golfe de Porto : calanche de Piana, golfe de Girolata, réserve de Scandola",
       "type": "UNESCO World Heritage",
@@ -1179,6 +1167,18 @@
       "website_valid": false,
       "description": "territoire viticole français",
       "source": "http://www.wikidata.org/entity/Q2987951"
+    },
+    {
+      "id": "Q2482169",
+      "name": "La Targette British Cemetery",
+      "type": "UNESCO World Heritage",
+      "city": "",
+      "lat": 50.350612,
+      "lon": 2.74881,
+      "website": "",
+      "website_valid": false,
+      "description": "cimetière situé dans le Pas-de-Calais, en France",
+      "source": "http://www.wikidata.org/entity/Q2482169"
     },
     {
       "id": "Q1330981",
