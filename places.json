@@ -2,7 +2,7 @@
   "source": "Wikidata (CC0)",
   "license": "CC0 1.0",
   "country": "France",
-  "count": 196,
+  "count": 195,
   "places": [
     {
       "id": "Q122784272",
@@ -1971,18 +1971,6 @@
       "website_valid": false,
       "description": "nécropole nationale située dans le Haut-Rhin, en France",
       "source": "http://www.wikidata.org/entity/Q20973864"
-    },
-    {
-      "id": "Q705054",
-      "name": "ossuaire de Douaumont",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 49.20826,
-      "lon": 5.423671,
-      "website": "https://www.verdun-douaumont.com/",
-      "website_valid": true,
-      "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
-      "source": "http://www.wikidata.org/entity/Q705054"
     },
     {
       "id": "Q20973920",
