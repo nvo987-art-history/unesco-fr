@@ -125,6 +125,18 @@
       "source": "http://www.wikidata.org/entity/Q750675"
     },
     {
+      "id": "Q1874283",
+      "name": "Canadian Cemetery N°2",
+      "type": "UNESCO World Heritage",
+      "city": "",
+      "lat": 50.377291,
+      "lon": 2.764133,
+      "website": "",
+      "website_valid": false,
+      "description": "cimetière situé dans le Pas-de-Calais, en France",
+      "source": "http://www.wikidata.org/entity/Q1874283"
+    },
+    {
       "id": "Q202494",
       "name": "canal du Midi",
       "type": "UNESCO World Heritage",
@@ -411,18 +423,6 @@
       "website_valid": false,
       "description": "cimetière situé dans la Somme, en France",
       "source": "http://www.wikidata.org/entity/Q4991584"
-    },
-    {
-      "id": "Q1874283",
-      "name": "cimetière canadien n°2",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 50.377291,
-      "lon": 2.764133,
-      "website": "",
-      "website_valid": false,
-      "description": "cimetière situé dans le Pas-de-Calais, en France",
-      "source": "http://www.wikidata.org/entity/Q1874283"
     },
     {
       "id": "Q2135937",
