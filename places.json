@@ -948,7 +948,7 @@
       "lat": 50.482183,
       "lon": 2.55356,
       "website": "https://www.citedeselectriciens.fr/fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "cité à Bruay-la-Buissière (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q22997438"
     },
