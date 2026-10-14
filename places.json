@@ -372,7 +372,7 @@
       "lat": 49.334167,
       "lon": 5.093333,
       "website": "https://www.abmc.gov/Meuse-Argonne#.WuWVy2cUmpo",
-      "website_valid": false,
+      "website_valid": true,
       "description": "cimetière situé dans la Meuse, en France",
       "source": "http://www.wikidata.org/entity/Q2215301"
     },
@@ -948,7 +948,7 @@
       "lat": 50.482183,
       "lon": 2.55356,
       "website": "https://www.citedeselectriciens.fr/fr",
-      "website_valid": false,
+      "website_valid": true,
       "description": "cité à Bruay-la-Buissière (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q22997438"
     },
