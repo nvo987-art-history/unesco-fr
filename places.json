@@ -360,7 +360,7 @@
       "lat": 48.804722222,
       "lon": 2.120277777,
       "website": "https://www.chateauversailles.fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "château à Versailles, en France",
       "source": "http://www.wikidata.org/entity/Q2946"
     },
@@ -936,7 +936,7 @@
       "lat": 43.206439,
       "lon": 2.363788,
       "website": "https://www.remparts-carcassonne.fr/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "ensemble architectural médiéval dans le département de l'Aude, en France",
       "source": "http://www.wikidata.org/entity/Q389269"
     },
@@ -1116,7 +1116,7 @@
       "lat": 44.3881219,
       "lon": 4.4161408,
       "website": "https://archeologie.culture.gouv.fr/chauvet/fr/visiter-la-grotte",
-      "website_valid": true,
+      "website_valid": false,
       "description": "grotte ornée paléolithique à Vallon-Pont-d'Arc, Ardèche, France",
       "source": "http://www.wikidata.org/entity/Q374096"
     },
@@ -1140,7 +1140,7 @@
       "lat": 45.77939,
       "lon": 2.96511,
       "website": "https://www.chainedespuys-failledelimagne.com/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "site du patrimoine mondial en France",
       "source": "http://www.wikidata.org/entity/Q64832437"
     },
@@ -1152,7 +1152,7 @@
       "lat": 48.808055555,
       "lon": 2.108333333,
       "website": "https://www.chateauversailles.fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "jardin situé à l'ouest du château de Versailles",
       "source": "http://www.wikidata.org/entity/Q3162464"
     },
@@ -2268,7 +2268,7 @@
       "lat": 44.837619444,
       "lon": -0.576555555,
       "website": "https://www.pey-berland.fr/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "clocher de la cathédrale de Bordeaux (Gironde)",
       "source": "http://www.wikidata.org/entity/Q954262"
     },
