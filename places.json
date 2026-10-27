@@ -1116,7 +1116,7 @@
       "lat": 44.3881219,
       "lon": 4.4161408,
       "website": "https://archeologie.culture.gouv.fr/chauvet/fr/visiter-la-grotte",
-      "website_valid": false,
+      "website_valid": true,
       "description": "grotte ornée paléolithique à Vallon-Pont-d'Arc, Ardèche, France",
       "source": "http://www.wikidata.org/entity/Q374096"
     },
