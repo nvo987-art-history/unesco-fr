@@ -2,7 +2,7 @@
   "source": "Wikidata (CC0)",
   "license": "CC0 1.0",
   "country": "France",
-  "count": 196,
+  "count": 195,
   "places": [
     {
       "id": "Q122784272",
@@ -2103,18 +2103,6 @@
       "website_valid": false,
       "description": "",
       "source": "http://www.wikidata.org/entity/Q54806811"
-    },
-    {
-      "id": "Q284444",
-      "name": "pont d'Avignon",
-      "type": "UNESCO World Heritage",
-      "city": "",
-      "lat": 43.953888888,
-      "lon": 4.805,
-      "website": "",
-      "website_valid": false,
-      "description": "pont à Avignon, France",
-      "source": "http://www.wikidata.org/entity/Q284444"
     },
     {
       "id": "Q189764",
