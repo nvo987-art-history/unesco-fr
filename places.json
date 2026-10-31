@@ -948,7 +948,7 @@
       "lat": 50.482183,
       "lon": 2.55356,
       "website": "https://www.citedeselectriciens.fr/fr",
-      "website_valid": true,
+      "website_valid": false,
       "description": "cité à Bruay-la-Buissière (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q22997438"
     },
@@ -1247,7 +1247,7 @@
       "city": "",
       "lat": 43.838194,
       "lon": 4.356111,
-      "website": "https://www.maisoncarree.eu/en/",
+      "website": "https://www.lamaisoncarreedenimes.fr/",
       "website_valid": true,
       "description": "temple romain à Nîmes en France",
       "source": "http://www.wikidata.org/entity/Q677659"
@@ -1980,7 +1980,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
