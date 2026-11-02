@@ -948,7 +948,7 @@
       "lat": 50.482183,
       "lon": 2.55356,
       "website": "https://www.citedeselectriciens.fr/fr",
-      "website_valid": false,
+      "website_valid": true,
       "description": "cité à Bruay-la-Buissière (Pas-de-Calais)",
       "source": "http://www.wikidata.org/entity/Q22997438"
     },
@@ -1980,7 +1980,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
