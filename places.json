@@ -1200,7 +1200,7 @@
       "lat": 44.2203,
       "lon": 3.4731,
       "website": "http://www.causses-et-cevennes.fr/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "territoires du Massif central méridional inscrit au patrimoine mondiale de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q10444176"
     },
@@ -1980,7 +1980,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
