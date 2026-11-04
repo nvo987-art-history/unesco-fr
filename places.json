@@ -1200,7 +1200,7 @@
       "lat": 44.2203,
       "lon": 3.4731,
       "website": "http://www.causses-et-cevennes.fr/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "territoires du Massif central méridional inscrit au patrimoine mondiale de l'UNESCO",
       "source": "http://www.wikidata.org/entity/Q10444176"
     },
