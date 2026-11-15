@@ -60,7 +60,7 @@
       "lat": 45.752777777,
       "lon": 5.839722222,
       "website": "https://hautecombe.chemin-neuf.fr/",
-      "website_valid": true,
+      "website_valid": false,
       "description": "abbaye située en Savoie, en France",
       "source": "http://www.wikidata.org/entity/Q63524"
     },
@@ -1980,7 +1980,7 @@
       "lat": 49.20826,
       "lon": 5.423671,
       "website": "https://www.verdun-douaumont.com/",
-      "website_valid": false,
+      "website_valid": true,
       "description": "ossuaire à Fleury-devant-Douaumont (Meuse)",
       "source": "http://www.wikidata.org/entity/Q705054"
     },
